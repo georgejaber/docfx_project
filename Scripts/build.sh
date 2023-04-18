@@ -1,4 +1,4 @@
-brew update && brew install azure-cli
+apt install azure-cli
 
 echo "loging into azure...."
 az login --service-principal -u $AZUREAPPID -p $AZUREAPPKEY --tenant $AZUREAPPTENANT
