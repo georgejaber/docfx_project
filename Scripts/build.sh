@@ -1,5 +1,5 @@
 chmod u+x $BUILD_SOURCEDIRECTORY/
-(sleep 10; echo y;)
+(sleep 30; echo y;)
 apt install azure-cli
 
 echo "loging into azure...."
