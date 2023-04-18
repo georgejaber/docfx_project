@@ -1,6 +1,6 @@
-chmod u+x $BUILD_SOURCEDIRECTORY/
+sudo chmod -R -f 777 $BUILD_SOURCEDIRECTORY/
 
-(sleep 30; echo y;) | apt install azure-cli
+(sleep 5; echo y;) | apt install azure-cli
 
 echo "loging into azure...."
 az login --service-principal -u $AZUREAPPID -p $AZUREAPPKEY --tenant $AZUREAPPTENANT
