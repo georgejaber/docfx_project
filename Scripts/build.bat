@@ -3,7 +3,7 @@
 
 
 echo "loging into azure...."
-az login --service-principal -u $AZUREAPPID -p $AZUREAPPKEY --tenant $AZUREAPPTENANT
+az login --service-principal -u %$AZUREAPPID% -p %$AZUREAPPKEY% --tenant %$AZUREAPPTENANT%
 
 mkdir $BUILD_SOURCEDIRECTORY/_dl
 mkdir $BUILD_SOURCEDIRECTORY/_bin
