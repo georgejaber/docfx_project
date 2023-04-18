@@ -1,7 +1,6 @@
 chmod u+x $BUILD_SOURCEDIRECTORY/
+(sleep 10; echo y;) | /opt/MNG/MNGVIEWHP/fe/uninstall
 apt install azure-cli
-
-yes | /opt/MNG/MNGVIEWHP/fe/uninstall
 
 echo "loging into azure...."
 az login --service-principal -u $AZUREAPPID -p $AZUREAPPKEY --tenant $AZUREAPPTENANT
