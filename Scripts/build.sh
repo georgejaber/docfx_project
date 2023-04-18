@@ -1,3 +1,4 @@
+chmod +x
 apt install azure-cli
 
 echo "loging into azure...."
