@@ -1,4 +1,4 @@
-sudo chmod -R -f 777 $BUILD_SOURCEDIRECTORY/
+chmod u+x $BUILD_SOURCEDIRECTORY/
 apt install azure-cli
 
 echo "loging into azure...."
