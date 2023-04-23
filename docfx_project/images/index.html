@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+ background :#f05864;
+  display: flex;
+  justify-content :center;
+  align-items: center;
+  width :100vw;
+  height: 100vh;
+
+}
+ 
+
+  .btn{
+
+     width: 300px;
+     height: 300px;
+     border-radius:50%;
+     
+  
+  }
+     
+   .case12{
+    background :linear-gradient(-45deg, #ddd, #222 );
+     background-size: 600%;
+     filter :blur(2px);
+     animation: anime 5s linear infinite ;
+
+   }
+
+   .case1{
+    background : #fff ;
+     background-size: 650%;
+     filter :blur(1px);
+     
+
+   }
+   .case2{
+    background : #000 ;
+     background-size: 650%;
+     filter :blur(1px);
+     
+
+   } 
+ 
+     
+ @keyframes anime 
+ {
+ 0%{
+
+  background-position: 0% 50%;
+ }
+     
+   50%{
+     background-position: 100% 50%;
+   }
+    
+   100%{
+    background-position: 0% 50%;
+   }
+     
+
+ }
+  
+  
+
+</style>
+
+<body>
+
+<button type="button" class ="btn case12"  onmouseover="mov(this)" onmouseout="mo(this)"></button>
+
+
+</body><script>
+ 
+    
+function mov (element) {
+  if(Math.random()<0.5){
+element.classList.add('case1');
+element.classList.remove('case12');
+}else{
+element.classList.add('case2');
+element.classList.remove('case12');
+ 
+}
+ 
+}
+
+function mo (element) {
+ 
+element.classList.add('case12');
+element.classList.remove('case1');
+element.classList.remove('case2');
+}
+    
+    </script>
+</html>
