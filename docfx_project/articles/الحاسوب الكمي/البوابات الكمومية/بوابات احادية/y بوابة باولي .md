@@ -9,4 +9,6 @@ $π$ $radians$بمقدار  $y$ هذه البوابة تقوم بعملية عك
 
   ![pauli y](/docfx_project/images/Pauli-y2.png)
 
-  ![pauli y](/docfx_project/images/Bloch_sphere_pauli_y.png)
+  ![pauli y on block sphere](/docfx_project/images/Bloch_sphere_pauli_y.png)
+
+ ![pauli y gif](/docfx_project/images/pauliyG.gif)
