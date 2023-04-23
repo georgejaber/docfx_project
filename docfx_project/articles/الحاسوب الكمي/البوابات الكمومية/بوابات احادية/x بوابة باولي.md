@@ -15,3 +15,4 @@
 
  ![pauli x](/docfx_project/images/pauli_x_gate1.jpg)
 
+ ![pauli x gif](/docfx_project/images/paulixG.gif)

@@ -11,3 +11,4 @@
 
   ![pauli y](/docfx_project/images/Pauli-y2.png)
 
+ ![pauli y gif](/docfx_project/images/pauliyG.gif)
