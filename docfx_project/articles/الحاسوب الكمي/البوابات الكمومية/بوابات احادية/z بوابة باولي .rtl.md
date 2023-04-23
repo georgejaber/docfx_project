@@ -7,6 +7,7 @@
 
  حيث نرى من الجانب الرياضي اننا نعبر عن الدالة الموجية بمصفوفة والتي تعني متجه في complex plane وكما وضحنا سابقا و بالاعتماد على هذا فان الطريقة الرياضية في الحصول عكس اشارة الكيوبت وعكس قيمة الكيوبت تحتاج منا ان نقوم بضرب مصفوفة دالة الموجة في مصفوفة y 
 
+  ![pauli y](/docfx_project/images/Bloch_sphere_pauli_y1.png)
+
   ![pauli y](/docfx_project/images/Pauli-y2.png)
 
-  ![pauli y](/docfx_project/images/Bloch_sphere_pauli_y.png)
