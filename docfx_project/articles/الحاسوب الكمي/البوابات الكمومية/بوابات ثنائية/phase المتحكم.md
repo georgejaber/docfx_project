@@ -7,9 +7,20 @@
 
  ![controlled-phase-gate](/docfx_project/images/controlled-phase-gate.png)
 
-  ![controlled-phase-gate-matrix](/docfx_project/images/controlled-phase-gate-matrix.png)
+$Cphase = $$\begin{bmatrix}
+1&0&0&0 \\
+0&1&0&0 \\
+0&0&1&0 \\
+1&0&0&-1 \\
+\end{bmatrix}$
 
- ![controlled-phase-gate-Input-Output](/docfx_project/images/controlled-phase-gate-Input-Output.png)
 
+| input       | output      |
+| ----------- | ----------- |
+| $\ket{00}$  | $\ket{00}$  |
+| $\ket{01}$  | $\ket{01}$  |
+| $\ket{10}$  | $\ket{10}$  |
+| $\ket{00}$  | $\ket{00}$  |
+| $\ket{11}$  | $-\ket{11}$ |
 
 
