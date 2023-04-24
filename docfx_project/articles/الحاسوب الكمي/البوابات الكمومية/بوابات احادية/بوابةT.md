@@ -1,5 +1,8 @@
 # بوابة T 
 
+$p(\lambda = \pi/4 )=T$
+
+
  ![T_Gate](/docfx_project/images/T_Gate_math%201.png)
 
  يتم تعريف التحويل المترافق ( conjugate transpose) للبوابة 
