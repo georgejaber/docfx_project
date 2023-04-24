@@ -8,7 +8,7 @@ $T= p(\lambda = \pi/4 )$
  يتم تعريف التحويل المترافق ( conjugate transpose) للبوابة 
  T بواسطة
 
-  ![T_Gate 2](/docfx_project/images/T_Gate_math2.png)
+![T_Gate 2](/docfx_project/images/T_Gate_math2.png)
 
 
 
