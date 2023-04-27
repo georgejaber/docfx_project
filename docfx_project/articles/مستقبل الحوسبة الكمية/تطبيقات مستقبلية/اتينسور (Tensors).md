@@ -25,8 +25,9 @@
 
 
 
-حيث Cij و i تشير الى الصف و j تشير الى العمود ل C=AB ![](/docfx_project/images/Tensors2.png)
+حيث Cij و i تشير الى الصف و j تشير الى العمود ل C=AB ![]
 
+$C_{ij}=\sum_{k}^{} A_{ik} B_{kj}$
 
 tensor network 
 
