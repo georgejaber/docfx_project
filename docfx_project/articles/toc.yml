@@ -1,6 +1,10 @@
 - name: Introduction
   href: intro.md
-- name : لمحة تاريخية عن الفيزياء الكمية
-  href: Introduction_to_quantum_mechanics.md
 
+- name: مقدمة
+  href: introduction
+  - name: لمحة تاريخية عن ميكانيكا الكم
+    href: introduction\history_of_quantum_physics
+    - name: مقدمة في ميكانيكا الكم 
+      href: introduction\history_of_quantum_physics\Introduction_to_quantum_mechanics
 
