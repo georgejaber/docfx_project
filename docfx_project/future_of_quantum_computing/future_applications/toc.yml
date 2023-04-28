@@ -1,0 +1,31 @@
+
+- name: مستقبل و مجالات الحوسبة الكمية  
+  href: introduction.md
+
+
+- name: مسائل كمية متعددة الحدود محدودة الخطأ  
+  href: BQP.md
+
+- name:  تطبيقات الكم في الهندسة الكيميائي
+  href: Chemical_Engineering.md
+
+- name:  تطبيقات الكم  في الجانب الاقتصادي  
+  href: economic_side.md
+
+- name: الحوسبة الكمية في التصنيع 
+  href: Quantum_computing_in_manufacturing.md
+
+- name:  الانترنت الكمي
+  href: Quantum_Internet.md
+
+
+- name: التطبيق العلمي  
+  href: Scientific_application.md
+
+- name: Tensors 
+  href: Tensors.md
+
+
+
+
+

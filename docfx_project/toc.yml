@@ -1,10 +1,11 @@
 
-- name: Api Documentation
+- name: الصفحة الرئيسية
   href: api/
   homepage: api/index.md
 
+
 - name: مقدمة
-  href: introduction
+  href: introduction/
 
 - name: الحاسوب الكمي
   href: Quantum_computer/

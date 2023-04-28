@@ -1,5 +1,8 @@
-- name: وصف الوحدة
+- name: تطبيقات الحوسبة الكمية
   href: intro.md
+
+- name:  مقدمة 
+  href: introduction/
 
 - name: خوارزميات كمومية
   href: Quantum_algorithms/

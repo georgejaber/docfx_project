@@ -1,14 +1,13 @@
-
-- name: Introduction
+- name: وصف الوحدة
   href: intro.md
 
-- name: مقدمة في تاريخ ميكانيكا الكم 
+- name:  لمحة تاريخية عن فيزياء الكم
   href: history_of_quantum_physics/
 
-- name: نوبل للفيزياء  
-  href: Nobel_Prize/
-  
-- name: الحاجة للحاسوب الكمي
+- name: الحاجة للحاسوب الكمي 
   href: need_quantum_computing/
 
-  
+
+- name:  نوبل للفيزياء 2022  
+  href: Nobel_Prize/
+

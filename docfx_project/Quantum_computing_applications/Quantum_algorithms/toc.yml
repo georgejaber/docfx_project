@@ -1,15 +1,15 @@
 
-- name: Grover_algorithm
+- name: خوارزمية جروفر
   href: Grover_algorithm.md
 
-- name: Jozsa_Deutsch
+- name: خوارزمية دويتش
   href: Jozsa_Deutsch.md
 
 
-- name: oracle_function 
+- name: اوراكل فنكشن 
   href: oracle_function.md
 
-- name: Shor`s_algorithm 
+- name:  خوارزمية شور  
   href: Shor`s_algorithm.md
 
 
