@@ -1,5 +1,22 @@
-- name: Articles
-  href: articles/
+
 - name: Api Documentation
   href: api/
   homepage: api/index.md
+
+- name: مقدمة
+  href: introduction
+
+- name: الحاسوب الكمي
+  href: Quantum_computer/
+
+
+- name: تطبيقات الحوسبة الكمية 
+  href: Quantum_computing_applications/
+
+
+- name: مستقبل الحاسوب الكمي
+  href: future_of_quantum_computing/
+
+
+
+

@@ -28,8 +28,32 @@
       },
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
+          "introduction/**.md",
+          "introduction/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      },
+      {
+        "files": [
+          "Quantum_computer/**.md",
+          "Quantum_computer/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      },
+      {
+        "files": [
+          "Quantum_computing_applications/**.md",
+          "Quantum_computing_applications/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      },
+      {
+        "files": [
+          "future_of_quantum_computing/**.md",
+          "future_of_quantum_computing/**/toc.yml",
           "toc.yml",
           "*.md"
         ]

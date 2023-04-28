@@ -1,0 +1,13 @@
+- name: وصف الوحدة
+  href: intro.md
+
+- name: خوارزميات كمومية
+  href: Quantum_algorithms/
+
+- name: الدارات في الحاسوب الكمي 
+  href: Quantum_circuits/
+
+
+- name: البرمجة في الحاسوب الكمي
+  href: Quantum_programming/
+

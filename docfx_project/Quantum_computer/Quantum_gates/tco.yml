@@ -1,0 +1,13 @@
+- name: وصف الوحدة
+  href: intro.md
+
+- name: البوابات الاحادية
+  href: binary_gates/
+
+- name: الحاسوب الكمي
+  href: ternary_gates/
+
+
+- name: تطبيقات الحوسبة الكمية 
+  href: unary_gates/
+

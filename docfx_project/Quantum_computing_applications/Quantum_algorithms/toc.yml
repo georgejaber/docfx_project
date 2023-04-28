@@ -1,0 +1,16 @@
+
+- name: Grover_algorithm
+  href: Grover_algorithm.md
+
+- name: Jozsa_Deutsch
+  href: Jozsa_Deutsch.md
+
+
+- name: oracle_function 
+  href: oracle_function.md
+
+- name: Shor`s_algorithm 
+  href: Shor`s_algorithm.md
+
+
+
