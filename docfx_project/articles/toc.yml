@@ -2,9 +2,7 @@
   href: intro.md
 
 - name: مقدمة
-  href: introduction
-  - name: لمحة تاريخية عن ميكانيكا الكم
-    href: introduction\history_of_quantum_physics
-    - name: مقدمة في ميكانيكا الكم 
-      href: introduction\history_of_quantum_physics\Introduction_to_quantum_mechanics
+  href: introduction/
 
+- name: الحاسوب الكمي
+  href: Quantum_computer/
