@@ -1,0 +1,9 @@
+- name: كرة بلوخ
+  href: Bloch_sphere.md
+
+- name: تعريف الكيوبت 
+  href: Definition_of_qbit.md
+
+- name: تطبيقات الكيوبت 
+  href: qbit_application.md
+
