@@ -1,11 +1,11 @@
 
- 
-- name: CNOT_gate   
-  href: CNOT_gate.md
+items: 
+  - name: CNOT_gate   
+    href: CNOT_gate.md
 
-- name: phase_gate       
-  href: phase_gate.md
+  - name: phase_gate       
+    href: phase_gate.md
 
-- name: SWAP_gate    
-  href: SWAP_gate.md
+  - name: SWAP_gate    
+    href: SWAP_gate.md
 

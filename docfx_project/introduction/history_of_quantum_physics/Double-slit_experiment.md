@@ -3,7 +3,7 @@
 في ميكانيكا الكم يمكن للجسيمات أن تكون  موجات و جسيمات في نفس الوقت
 
 
-![تجربة الشق المزدوج](/docfx_project/images/Double_slit_experiment.png)
+![تجربة الشق المزدوج](~/images/Double_slit_experiment.png)
 
 
 
@@ -18,7 +18,7 @@ $p = probability$ (احتمالية)
 اما اذا كان المصدر يرسل موجات 
 
 
-![تجربة الشق المزدوج2](/docfx_project/images/singlephoton.png)
+![تجربة الشق المزدوج2](~/images/singlephoton.png)
 
 هذا في حال كان المقذوف جسيم مثل الرصاصة او موجة في المثال الثاني 
 

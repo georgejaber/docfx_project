@@ -1,16 +1,11 @@
-- name: تطبيقات الحوسبة الكمية
-  href: intro.md
+items:
 
-- name:  مقدمة 
-  href: introduction/
+  - name: خوارزميات كمومية
+    href: Quantum_algorithms/toc.yml
 
-- name: خوارزميات كمومية
-  href: Quantum_algorithms/
+  - name: الدارات في الحاسوب الكمي 
+    href: Quantum_circuits/toc.yml
 
-- name: الدارات في الحاسوب الكمي 
-  href: Quantum_circuits/
-
-
-- name: البرمجة في الحاسوب الكمي
-  href: Quantum_programming/
+  - name: البرمجة في الحاسوب الكمي
+    href: Quantum_programming/toc.yml
 

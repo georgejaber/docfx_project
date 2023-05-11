@@ -1,10 +1,11 @@
-- name:  مستقبل الحاسوب الكمي
-  href: intro.md
-  
-- name:  التحديات و العقبات   
-  href: Challenges_and_hindrances/
+items:
+  - name:  مستقبل الحاسوب الكمي
+    href: intro.md
+    
+  - name:  التحديات و العقبات   
+    href: Challenges_and_hindrances/toc.yml
 
 
-- name:  تطبيقات مستقبلية 
-  href: future_applications/
+  - name:  تطبيقات مستقبلية 
+    href: future_applications/toc.yml
 

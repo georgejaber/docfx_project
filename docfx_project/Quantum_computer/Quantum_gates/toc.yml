@@ -1,0 +1,10 @@
+items:
+  - name: البوابات الاحادية
+    href: unary_gates/toc.yml
+    
+  - name: البوابات الثنائية
+    href: binary_gates/toc.yml
+
+  - name: البوابات المتعددة
+    href: ternary_gates/toc.yml
+

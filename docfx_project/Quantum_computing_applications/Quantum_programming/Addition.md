@@ -8,9 +8,9 @@
 في هذا المثال سوف نوضح كيف يتم إنشاء full adder كمي وكيف يعمل هذا adder على حالات التراكب.
 
 
-![Full adder](/docfx_project/images/fullAdder1.png)
+![Full adder](~/images/fullAdder1.png)
 
-![Full adder](/docfx_project/images/fullAdder2.png)
+![Full adder](~/images/fullAdder2.png)
 ```
 OPENQASM 2.0;
 include "qelib1.inc";
@@ -47,10 +47,10 @@ cx q[0], q[1];            #step 5
 في اخر خطوة نقوم ايضا باستخدام بوابة النفي CX التي قمنا باستخدامها سابقا و نضعها بين الكيوبت صفر و واحد 
 
 #### الجدول التالي يعرض الحالات للكيوبت 
-![Full adder](/docfx_project/images/fullAdder3.png)
+![Full adder](~/images/fullAdder3.png)
 
 ##### الخطوة السادسة
 مع إضافة بوابة هدامارت إلى  q0 و q2 
 حيث تقوم بوابة هدامارت بإدخال الكيوبت في وضع الفائق 
 
-![Full adder](/docfx_project/images/fullAdder4.png)
+![Full adder](~/images/fullAdder4.png)

@@ -1,7 +1,7 @@
+items:
+  - name: دائرة الاضافة 
+    href: circle_full_adder.md
 
-- name: دائرة الاضافة 
-  href: circle_full_adder.md
-
-- name: دائرة النقل 
-  href: circle_teleportation.md
+  - name: دائرة النقل 
+    href: circle_teleportation.md
 

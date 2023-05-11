@@ -6,7 +6,7 @@
 وإذا كانت النسبة أقل من 55% فأن الجسيمات تتأثر ببعضها البعض والتي تتوافق مع ميكانيكا الكم وفكرة التشابك الكمي.
 
 
- ![Venn_diagram_e](/docfx_project/images/Venn_diagram_e.png)
+ ![Venn_diagram_e](~/images/Venn_diagram.png)
 
 
 وضع بيل للمتباينة السابقة اثبت خطأ اينشتاين في ورقته البحثية EPR Paradox 
@@ -19,4 +19,4 @@ realizem: تم نفيها حينما اثبت ان العالم عبارة عن 
 
 
 
-https://www.youtube.com/watch?v=fBR5HQ-Ja10
+<!-- https://www.youtube.com/watch?v=fBR5HQ-Ja10 -->

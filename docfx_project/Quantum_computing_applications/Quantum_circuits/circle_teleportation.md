@@ -7,11 +7,11 @@ Quantum teleportation(الانتقال الأني  الكمي)
 لكن، اذا كان الكيوبتان C,A بعيدان جدا عن A كيف يمكننا إرسال رسالة بان عملية النقل تمت وما هي طريقة القياس ؟
 يمكن فعل ذلك عن طريق قناة نقل كلاسيكية (ألياف ضوئية مثلا) تنقل 2 بت كلاسيكي فقط كما في الشكل التالي :
 
-![teleportation figure](/docfx_project/images/teleportation1.png)
+![teleportation figure](~/images/teleportation1.png)
 
 ويمكن تطبيق دائرة النقل برمجيا عبر هذا المخطط :
 
-![teleportation figure](/docfx_project/images/teleportation2.png)
+![teleportation figure](~/images/teleportation2.png)
 
 ``` OPENQASM 2.0
 include "qelib1.inc";

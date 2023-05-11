@@ -6,7 +6,7 @@ Python, C/C++, Java
 اغلب مراكز البحث ركزت على لغة python كلغة اساسية في البرمجة الكمومية , وذلك لسهولة التعامل معها 
 
 
-![architecture_quantum_computer](/docfx_project/images/architecture_quantum_computer.png)
+![architecture_quantum_computer](~/images/architecture_quantum_computer.png)
 
 
 الرسم تخطيطي لبنية مكدس الحوسبة الكمومية, والتي تتراوح بين الخوارزميات والتطبيقات الكمومية (Quantum Algorithms) على أعلى مستوى, إلى المعالجات الفيزيائية الكمومية 

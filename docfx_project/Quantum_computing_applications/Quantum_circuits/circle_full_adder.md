@@ -7,10 +7,10 @@
 حيث يتم تمثيل دائرة الجمع في الحاسوب الكلاسيكي 
 
 
-![full_adder_classic](/docfx_project/images/full_adder_classic2.png)
+![full_adder_classic](~/images/full_adder_classic2.png)
 
 
-![full_adder_classic](/docfx_project/images/full_adder_classic.png)
+![full_adder_classic](~/images/full_adder_classic.png)
 
 
 
@@ -18,10 +18,10 @@
 
 
 
-![full_adder_Quantum](/docfx_project/images/full_adder_Quantum.png)
+![full_adder_Quantum](~/images/full_adder_Quantum.png)
 
 
-![full_adder_Quantum](/docfx_project/images/full_adder_Quantum2.png)
+![full_adder_Quantum](~/images/full_adder_Quantum2.png)
 
 
 وسيتم شرح طريقة بناء دارة الجمع الكاملة (full_adder)بالتفاصيل في الفصول القادمة 

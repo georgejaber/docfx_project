@@ -1,11 +1,11 @@
 
- 
-- name: مبرهنة بل    
-  href: Bell's_theorem.md
+items: 
+  - name: مبرهنة بل    
+    href: Bell's_theorem.md
 
-- name: خلاف اينشتاين      
-  href: Einstein_argument.md
+  - name: خلاف اينشتاين      
+    href: Einstein_argument.md
 
-- name: ثلاثي نوبل   
-  href: Nobel2022.md
+  - name: ثلاثي نوبل   
+    href: Nobel2022.md
 

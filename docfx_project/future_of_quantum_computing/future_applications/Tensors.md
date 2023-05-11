@@ -19,7 +19,7 @@
 في التدوين التخطيطي ، تظهر الفهارس المتكررة كخطوط تربط الموترات ، كما في الشكل أدناه
 نرى اثنين من Tensors من الرتبة الثانية متصلين بواسطة مؤشر متكرر واحد K يُطلق على بُعد الفهرس المتكرر أبعاد السندات
 
-![](/docfx_project/images/Tensors.png)
+![](~/images/Tensors.png)
 
 أن انكماش Tensors الموجود اعلاه يعادل صيغة ضرب المصفوفة القياسية و يمكن التعبير عنها من خلال 
 
@@ -37,11 +37,11 @@ tensor network
 
 الاول حالات منتج المصفوفة( matrix product states (MPS
 
-![](/docfx_project/images/Tensor3.png)
+![](~/images/Tensor3.png)
 
 و النوع الثاني شبكة شجرة   ( tree tensor networks (TTN
 
-![](/docfx_project/images/Tensor4.png)
+![](~/images/Tensor4.png)
 
 
 

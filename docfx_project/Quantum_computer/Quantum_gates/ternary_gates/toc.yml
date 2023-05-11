@@ -1,4 +1,3 @@
-
- 
-- name: Toffoli_CCNOT   
-  href: Toffoli_CCNOT.md
+items:
+  - name: Toffoli_CCNOT   
+    href: Toffoli_CCNOT.md

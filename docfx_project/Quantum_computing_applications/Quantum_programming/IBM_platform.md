@@ -14,14 +14,14 @@
 
 ### Main 
 
-![Main](/docfx_project/images/IBM_main.png)
+![Main](~/images/IBM_main.png)
 
 هنا تقون بوضع البوابات و غيرها 
 
 
 ### Operstions
 
-![Operstions](/docfx_project/images/IBM_Operations.png)
+![Operstions](~/images/IBM_Operations.png)
 
 هناك العديد من من الخانات التي تقع تحت خانة العمليات 
 
@@ -63,7 +63,7 @@
 ### languages  OpenQASM and QisKit
 
 
-![languages  OpenQASM and QisKit](/docfx_project/images/IBM_languages_OpenQASM2.png)![](/docfx_project/images/IBM_languages_QisKit2.png)
+![languages  OpenQASM and QisKit](~/images/IBM_languages_OpenQASM2.png)![](~/images/IBM_languages_QisKit2.png)
 
 
 
@@ -78,7 +78,7 @@ Qiskit
 ### Probabilities
 
 
-![Probabilities](/docfx_project/images/IBM_Probabilities.png)
+![Probabilities](~/images/IBM_Probabilities.png)
 
 من خلال هذه الخانة الموقع يعرض لك الاحتمالات لعدد من الكيوبت 
 
@@ -86,7 +86,7 @@ Qiskit
 
 ### Q-Sphere
 
-![Q-Sphere](/docfx_project/images/IBM_Q-Sphere.png)
+![Q-Sphere](~/images/IBM_Q-Sphere.png)
 
 
 

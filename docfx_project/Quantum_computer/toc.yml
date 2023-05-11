@@ -1,12 +1,10 @@
-- name: الحاسوب الكمي
-  href: intro.md
+items:
+  - name: الكيوبت
+    href: qbit/toc.yml
 
-- name: الكيوبت
-  href: qbit/
+  - name: البوابات الكمومية
+    href: Quantum_gates/toc.yml
 
-- name: الحاسوب الكمي
-  href: Quantum_gates/
-
-- name: المفاهيم الاساسية في ميكانيكا الكم
-  href: Basic_concepts_in_quantum_mechanics/
+  - name: المفاهيم الاساسية في ميكانيكا الكم
+    href: Basic_concepts_in_quantum_mechanics/toc.yml
 

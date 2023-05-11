@@ -68,14 +68,14 @@ $f\::\:constant\:\to \:0$
 #### في حال كان الفنكشن متوازنا
 
 
-![Deutsch_jozsa_alqorithm_balanced](/docfx_project/images/Deutsch_jozsa_alqorithm_balanced.png)
+![Deutsch_jozsa_alqorithm_balanced](~/images/Deutsch_jozsa_alqorithm_balanced.png)
 
 يكون احتمال ال"0“=0
 
 #### في حال كان الفنكشن ثابت
 
 
-![Deutsch_jozsa_alqorithm_Fixed](/docfx_project/images/Deutsch_jozsa_alqorithm_Fixed.png)
+![Deutsch_jozsa_alqorithm_Fixed](~/images/Deutsch_jozsa_alqorithm_Fixed.png)
 
 يكون احتمال ال"0“= %100
 

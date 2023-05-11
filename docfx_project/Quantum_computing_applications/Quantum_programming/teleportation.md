@@ -1,6 +1,7 @@
 # دارة التنقل
 
-![TeleportationA](/docfx_project/images/TeleportationA.png)
+![TeleportationA](~/images/TeleportationA.png)
+
 ```
 OPENQASM 2.0;
 include "qelib1.inc";
@@ -13,7 +14,6 @@ creg c[3];
 
 ry(pi/4) q[0];               #Step 1
 barrier q[0],q[1],q[2];
-h q[1];                      #Step 2
 cx q[1],q[2];                #Step 3
 barrier q[0],q[1],q[2];
 cx q[0],q[1];                #Step 4
@@ -24,6 +24,7 @@ measure q[2] -> c[2];        #Step 6   attention this is step 6
 measure q[1] -> c[1];        #Step 8
 measure q[0] -> c[0];        #Step 8
 ```
+
 ###### الخطوة الاولى:
  تمرير الكيوبت الاول في بوابة الاستدارة على المحور ص (Y). 
 ###### الخطوة الثانية:
@@ -43,13 +44,13 @@ measure q[0] -> c[0];        #Step 8
 
 
 #### النتيجة النظرية:
-![TeleportationA](/docfx_project/images/TeleportationB.png)
+![TeleportationA](~/images/TeleportationB.png)
 
 #### النتيجة العملية:
-![TeleportationA](/docfx_project/images/TeleportationC.png)
+![TeleportationA](~/images/TeleportationC.png)
 
 ##### الجهاز المستخدم:
-![TeleportationA](/docfx_project/images/TeleportationD.png)
+![TeleportationA](~/images/TeleportationD.png)
 
 
 https://quantum-computing.ibm.com/composer/files/32e8b13f8d6ae5b43340cb16dc590d7575965059cc800d2ef9d5b6c34afcd866

@@ -1,16 +1,16 @@
+items:
+  - name: خوارزمية جروفر
+    href: Grover_algorithm.md
 
-- name: خوارزمية جروفر
-  href: Grover_algorithm.md
-
-- name: خوارزمية دويتش
-  href: Jozsa_Deutsch.md
+  - name: خوارزمية دويتش
+    href: Jozsa_Deutsch.md
 
 
-- name: اوراكل فنكشن 
-  href: oracle_function.md
+  - name: اوراكل فنكشن 
+    href: oracle_function.md
 
-- name:  خوارزمية شور  
-  href: Shor`s_algorithm.md
+  - name:  خوارزمية شور  
+    href: Shor`s_algorithm.md
 
 
 

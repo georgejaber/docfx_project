@@ -1,18 +1,17 @@
+items: 
+  - name: لغات و تقنيات البرمجة الكمومية
+    href: Quantum_programming_platforms.md
 
-- name: تطبيق دائرة الاضافة
-  href: Addition.md
+  - name: منصة IBM
+    href: IBM_platform.md 
 
-- name: منصة IBM
-  href: IBM_platform.md
+  - name: OpenQASM
+    href: OpenQASM.md
+    
+  - name: تطبيق دائرة الاضافة
+    href: Addition.md
 
-
-- name: OpenQASM
-  href: OpenQASM.md
-
-- name: لغات و تقنيات البرمجة الكمومية
-  href: Quantum_programming_platforms.md
-
-- name:  تطبيق دارة التنقل 
-  href: teleportation.md
+  - name:  تطبيق دارة التنقل 
+    href: teleportation.md
 
 

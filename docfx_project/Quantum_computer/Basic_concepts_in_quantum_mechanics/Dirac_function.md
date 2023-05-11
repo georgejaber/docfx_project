@@ -27,7 +27,7 @@ $〈Particle Arrive (xn) | Leave Source〉$
 
 فعلى سبيل المثال و التوضيح اذا اردنا ان نحسب احتمال انتقال الالكترون من المدار رقم 3 الى المدار رقم 2 و يطلق فوتون (ضوء) 
 
-![الذرة](/docfx_project/images/atom.jpeg)
+![الذرة](~/images/atom.jpeg)
 
 من خلال استخدام $bra-ket$  $algebra$ 
 
@@ -61,7 +61,7 @@ $ ∣s〉= ∣x1〉 + ∣x2〉+ ∣x3〉 + ∣x4〉∣xn〉  $
 
 في الوضع الطبيعي او مثلما تعلمنا يمكن وصف متجه ما على شكل مصفوفة 
  
- ![vector](/docfx_project/images/vector2.jpeg)
+ ![vector](~/images/vector2.jpeg)
 
 في هذه الحالة متجهة $ op= xi + yj + zk  $
 
@@ -124,7 +124,7 @@ complex number = $ {\sqrt {-1}} $
 
 و يمثل في (complex_plane) 
 
- ![vector](/docfx_project/images/complex_plane.png)
+ ![vector](~/images/complex_plane.png)
 
  Re : is the real axis 
 
@@ -136,7 +136,7 @@ complex number = $ {\sqrt {-1}} $
 
 the  complex conjugate
 
- ![vector](/docfx_project/images/Complex_conjugate.png)
+ ![vector](~/images/Complex_conjugate.png)
 
  
 اذا اصبح بأمكانك تمثيل ∣s〉 (الحالة قبل القياس) بأستخدام متجه في Complex plane
