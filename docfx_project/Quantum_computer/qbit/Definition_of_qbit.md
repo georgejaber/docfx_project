@@ -3,7 +3,7 @@
 
 
 
- ![Qbit ](~/images/QBit.png)
+ ![Qbit ](/images/QBit.png)
 
 
 
