@@ -4,5 +4,5 @@
 
 <!--هذا الجملة ما زالت بحاجة الى ترجمة : Note that more sophisticated error models might be needed to model more accurately the effects of decoherence, leakage, etc.-->
 
- ![pauli i gif](/docfx_project/images/pauliIG.gif)
+ ![pauli i gif](~/images/pauliIG.gif)
  

@@ -5,5 +5,5 @@
 
 <!-- we need more information about Entanglement -->
 
-![gif Entanglement ](/docfx_project/images/entanglment.gif) 
+![gif Entanglement ](~/images/entanglment.gif) 
 

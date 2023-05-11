@@ -32,6 +32,6 @@ $|α|^2 + |β|^2 = 1 $
 
 $ ∣s〉= ∣↑〉 + ∣↓〉$
 
-![superposition](/docfx_project/images/superposition.gif) 
+![superposition](~/images/superposition.gif) 
 
 
