@@ -8,7 +8,7 @@
 في هذا المثال سوف نوضح كيف يتم إنشاء full adder كمي وكيف يعمل هذا adder على حالات التراكب.
 
 
-![Full adder](~/images/fullAdder1.png)
+
 
 ![Full adder](~/images/fullAdder2.png)
 ```
