@@ -3,7 +3,7 @@
 
 
 
- ![Qbit ](/docfx_project/images/QBit.png)
+ ![Qbit ](~/images/QBit.png)
 
 
 
@@ -23,7 +23,7 @@
 
 اما في $Qbit$ فيعطي ثلاث احتمالات صفر او واحد او صفر و واحد في نفس الوقت ويطلق على الاحتمال الاخير الوضع الفائق $(superposition)$ .
 
- ![Qbit vs bit ](/docfx_project/images/bit_vs_Qbit.jpeg/)
+ ![Qbit vs bit ](~/images/bit_vs_Qbit.jpeg)
 
 
 و اذا ضاعفت العدد في البت $bit$ العادي فأنك ستحصل على اربح احتمالات 
