@@ -1,21 +1,21 @@
 
 items:
-  - name: Pauli_I_gate   
+  - name:  I بوابة باولي    
     href: Pauli_I_gate.md
 
-  - name: Pauli_X_gate       
+  - name: X بوابة باولي        
     href: Pauli_X_gate.md
 
-  - name: Pauli_Y_gate    
+  - name: Y بوابة باولي    
     href: Pauli_Y_gate.md
 
-  - name: Pauli_z_gate   
+  - name: Z بوابة باولي    
     href: Pauli_Z_gate.md
 
-  - name: Pauli_T_gate       
-    href: Pauli_T_gate.md
+  - name: بوابة هادامارد  
+    href: Hadamard_gate.md
 
-  - name: Phase gate(or_S_gate)    
+  - name: بوابة المرحلة   
     href: Phase gate(or_S_gate).md
 
 
