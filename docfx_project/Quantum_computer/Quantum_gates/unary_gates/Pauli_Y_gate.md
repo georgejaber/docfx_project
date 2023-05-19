@@ -10,5 +10,5 @@
   ![pauliy y](~/images/Bloch_sphere_pauli_y1.png)
 
   ![pauli y](~/images/Pauli-y2.png)
-
+  
  ![pauli y gif](~/images/pauliyG.gif)
