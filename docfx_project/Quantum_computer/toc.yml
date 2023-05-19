@@ -1,10 +1,12 @@
-items:
+items: 
+  - name: المفاهيم الاساسية في ميكانيكا الكم
+    href: Basic_concepts_in_quantum_mechanics/toc.yml
+
   - name: الكيوبت
     href: qbit/toc.yml
-
+    
   - name: البوابات الكمومية
     href: Quantum_gates/toc.yml
 
-  - name: المفاهيم الاساسية في ميكانيكا الكم
-    href: Basic_concepts_in_quantum_mechanics/toc.yml
+
 
