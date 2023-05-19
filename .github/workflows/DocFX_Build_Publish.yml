@@ -1,9 +1,9 @@
 name: DocFX Build and Publish
 on:
   push:
-    branches: [ branch3 ] 
+    branches: [ master ] 
   pull_request:
-    branches: [ branch3 ]
+    branches: [ master ]
 jobs:
   publish-docs:
     runs-on: ubuntu-latest
