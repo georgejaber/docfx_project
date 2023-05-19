@@ -7,11 +7,10 @@
  حيث نرى من الجانب الرياضي اننا نعبر عن الدالة الموجية بمصفوفة والتي تعني متجه في complex plane وكما وضحنا سابقا و بالاعتماد على هذا فان الطريقة الرياضية في الحصول عكس اشارة الكيوبت و تحتاج منا ان نقوم بضرب مصفوفة دالة الموجة في مصفوفة z 
 
   ![pauli z](~/images/Bloch_sphere_pauli_z1.png)
-
-
-
-  ![pauli z](~/images/pauli_z.png)
-
-
+  
+$z=\sigma_{z}= \sigma_{3}=\begin{pmatrix}
+1&0\\
+0&-1\\
+\end{pmatrix}$
  ![pauli x gif](~/images/pauliZG.gif)
  

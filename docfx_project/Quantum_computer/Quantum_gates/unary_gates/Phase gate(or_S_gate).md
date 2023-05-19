@@ -4,7 +4,7 @@
 
 ترتبط البوبة S بالبوابة T من خلال العلقة $S=T^2$
 
- $S=p(\lambda = \pi/2 )$
+ $S=p(\lambda=\pi/2)$
 
 $p(\lambda )=\begin{pmatrix}
 1&0\\
