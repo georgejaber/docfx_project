@@ -40,7 +40,8 @@
 
   {{^redirect_url}}
   <body class="tex2jax_ignore" data-layout="{{layout}}" data-yaml-mime="{{yamlmime}}" dir="rtl">
-    <header class="bg-body border-bottom">
+   <!--
+   <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="{{_rel}}index.html">
@@ -62,7 +63,9 @@
           </div>
         </div>
       </nav>
+     
     </header>
+     -->
 
     <main class="container-xxl">
       <div class="toc-offcanvas" dir="ltr">
@@ -115,6 +118,7 @@
     <div class="container-xxl search-results" id="search-results"></div>
     {{/_enableSearch}}
 
+<!--
     <footer class="border-top">
       <div class="container-xxl">
         <div class="flex-fill">
@@ -122,6 +126,7 @@
         </div>
       </div>
     </footer>
+    -->
   </body>
   {{/redirect_url}}
 </html>

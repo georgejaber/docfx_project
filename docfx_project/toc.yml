@@ -1,10 +1,8 @@
 
-items:
-  - name: الصفحة الرئيسية
-    href: index.md
-    homepage: api/index.md
+      - name: الصفحة الرئيسية
+        href: index.md
+        homepage: api/index.md
 
-    items:
       - name: مقدمة
         href: introduction/toc.yml
 
