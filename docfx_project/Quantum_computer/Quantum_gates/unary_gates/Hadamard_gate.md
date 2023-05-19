@@ -16,12 +16,3 @@ Ex2
 
 
 ![Hadamard_Gate ex](~/images/Bloch_sphere_Hadamard.png)
-
-
-
-
-
- 
-
-
-
