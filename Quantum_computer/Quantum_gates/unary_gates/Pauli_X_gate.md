@@ -36,6 +36,6 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow x\begin{bmatrix}0\\1\end{bmat
 
  <!-- ![pauli x](~/images/pauli_x_gate1.jpg) -->
 
- تمثيل البوابة
- 
+ محاكاة البوابة
+
  ![pauli x gif](~/images/paulixG.gif)
