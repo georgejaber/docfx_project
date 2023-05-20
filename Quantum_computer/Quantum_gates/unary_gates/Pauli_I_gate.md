@@ -32,6 +32,7 @@ $|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow I\begin{bmatrix}1\\0\end{bmat
 $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow I\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1&0\\0&1\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1.0+0.1\\0.0+1.1\end{bmatrix}=\begin{bmatrix}0\\1\end{bmatrix}=|1〉$
 
 
+محاكاة البوابة
 
  ![pauli i gif](~/images/pauliIG.gif)
 
