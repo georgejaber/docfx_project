@@ -7,12 +7,7 @@
 
  ![controlled-phase-gate](~/images/controlled-phase-gate.png)
 
-$Cphase = $$\begin{bmatrix}
-1&0&0&0 \\
-0&1&0&0 \\
-0&0&1&0 \\
-0&0&0&-1 \\
-\end{bmatrix}$
+$Cphase=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&-1\\\end{bmatrix}$
 
 
 | input       | output      |
