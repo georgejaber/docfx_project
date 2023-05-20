@@ -1,4 +1,4 @@
-# دائرة التنقل teleportation
+## دائرة التنقل (teleportation)
 
 
 Quantum teleportation(الانتقال الأني  الكمي)
@@ -8,7 +8,7 @@ Quantum teleportation(الانتقال الأني  الكمي)
 يمكن فعل ذلك عن طريق قناة نقل كلاسيكية (ألياف ضوئية مثلا) تنقل 2 بت كلاسيكي فقط كما في الشكل التالي :
 
 ![teleportation figure](~/images/teleportation1.png)
-
+## برمجياً
 ويمكن تطبيق دائرة النقل برمجيا عبر هذا المخطط :
 
 ![teleportation figure](~/images/teleportation2.png)
