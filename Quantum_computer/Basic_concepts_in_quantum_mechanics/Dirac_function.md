@@ -9,8 +9,9 @@
 لمعرفة كيفية تمثيل دالة ديراك في الحاسوب الكمي
 
 
+كيفية استخدام 
+$bra-ket$ $algebra$
 
-$bra-ket$ $ algebra$ كيفية استخدام 
 
 $〈bra|ket〉$
 
@@ -19,7 +20,7 @@ $ket$:  الشرط البدائي (الحالة عند مغادرة المصدر
 $bra$: تشير إلى الشرط النهائي (المكان او الحالة التي يراد حساب احتمال تواجد الجسم فيها)
 
 
-$|〈bra|ket〉|^{2} = x $
+$|〈bra|ket〉|^{2}=x$
 
 
 احتمال وجود الالكترون في مكان ما 
@@ -31,7 +32,7 @@ $〈Particle Arrive (xn) | Leave Source〉$
 حيث ان الالكترون اذا اكتسب كم من الطاقة انتقل الى مدار اعلى فأذا تواجد الالكترون في المدار الثاني و كتسب كما من الطاقة انتقل الى المدار الثالث و بعد مرور الوقت يرجع الالكترون الى مداره الاصلي و يطلق كما من الطاقة  كما هو موضح في الصورة ادناه 
 
 
-![الذرة](/docfx_project/images/atom.jpeg)
+![الذرة](~/images/atom.jpeg)
 
 من خلال استخدام $bra-ket$  $algebra$ 
 
@@ -51,13 +52,13 @@ $∣ket〉$
 
 فمثلا 
 
-$ ∣s〉= ∣اسفل〉 + ∣ اعلى〉$
+$∣s〉=∣Down〉+∣Up〉$
 
-$ ∣s〉= ∣←〉 + ∣→〉$
+$∣s〉=∣←〉+∣→〉$
 
-$ ∣s〉= ∣↑〉 + ∣↓〉$
+$∣s〉=∣↑〉+∣↓〉$
 
-$ ∣s〉= ∣x1〉 + ∣x2〉+ ∣x3〉 + ∣x4〉∣xn〉  $
+$∣s〉= ∣x1〉+∣x2〉+∣x3〉+∣x4〉∣xn〉$
 
 ولا تعني بأنها تمثل فقط احتماليا انما تعني جميع الحالات الممكنة اي اكثر من احتماليا 
 
@@ -68,7 +69,7 @@ $ ∣s〉= ∣x1〉 + ∣x2〉+ ∣x3〉 + ∣x4〉∣xn〉  $
 
 في الوضع الطبيعي او مثلما تعلمنا يمكن وصف متجه ما على شكل مصفوفة  
  
- ![vector](/docfx_project/images/vector2.jpeg)
+ ![vector](~/images/vector2.jpeg)
 
 في هذه الحالة متجهة يمكننا حساب هذا المتجه عن طريق 
 
@@ -80,50 +81,23 @@ $ op= xi + yj + zk  $
 <!--تحويل الصورة الى صيغة رياضية   اشقر -->
 
 
- $$i =\begin{bmatrix}
-1 \\
-0 \\
-0\\
-\end{bmatrix}$$
+$\begin{bmatrix}1\\0\\0\end{bmatrix}$
 
- $$j =\begin{bmatrix}
-0 \\
-1 \\
-0\\
-\end{bmatrix}$$
+$\begin{bmatrix}0\\1\\0\end{bmatrix}$
 
- $$k =\begin{bmatrix}
-0 \\
-0 \\
-1\\
-\end{bmatrix}$$
+$\begin{bmatrix}0\\0\\1\end{bmatrix}$
+
 
 ومن خلال تطيق المعادلة السابقة 
-$ op= xi + yj + zk  $
-<!--تحويل الصورة الى صيغة رياضية   اشقر -->
+$op=xi+yj+zk$
 
 
 
-$=$ $x \begin{bmatrix}
-1 \\
-0 \\
-0\\
-\end{bmatrix}$ $+$  $y \begin{bmatrix}
-0 \\
-1 \\
-0\\
-\end{bmatrix}$ $+$  $z \begin{bmatrix}
-0 \\
-0 \\
-1\\
-\end{bmatrix}$ 
+
+$=$ $x\begin{bmatrix}1\\0\\0\end{bmatrix}$ $+$  $y\begin{bmatrix}0\\1\\0\end{bmatrix}$ $+$  $z\begin{bmatrix}0\\0\\1\end{bmatrix}$
 
 
- $op= \begin{bmatrix}
-x \\
-y \\
-z\\
-\end{bmatrix}$
+ $op= \begin{bmatrix}x\\y\\z\end{bmatrix}$
 
 
 هذه في الوضع الكلاسيكي اما في عالم ميكانيكا الكم بأمكانك تمثيل حالة الجسيم قبل القياس بمصفوفات ولكن تحتوي على عدد مركب (Complex number)   
@@ -132,7 +106,7 @@ complex number = $ {\sqrt {-1}} $
 
 و يمثل هذا المتجه في (complex_plane) 
 
- ![vector](/docfx_project/images/complex_plane.png)
+ ![vector](~/images/complex_plane.png)
 
  Re : ( is the real axis) الاحداث الحقيقي 
 
@@ -144,7 +118,7 @@ complex number = $ {\sqrt {-1}} $
 
 و تمثل على شكل مصفوفة كما هو موضح
 
- $∣a〉=\begin{vmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{vmatrix}$
+ $∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
 
 
 
@@ -153,7 +127,7 @@ complex number = $ {\sqrt {-1}} $
 
 يتم تكوين الاتحاد المركب (complex conjugate)عن طريق تغيير الإشارة بين المكونين الحقيقي والخيالي للعدد المركب. 
 
- ![vector](/docfx_project/images/Complex_conjugate.png)
+ ![the  complex conjugate](~/images/Complex_conjugate.png)
 
 
 
@@ -161,18 +135,18 @@ complex number = $ {\sqrt {-1}} $
 حيث a هو المكون الحقيقي و bi هو المكون التخيلي ، يكون المُقارن المركب $\overline{z}$ لـ $ z $ هو:
 
 
-$\overline{z}= x-iy$
+$\overline{z}=x-iy$
 
 و يمثل الاتحاد المركب (complex conjugate) 
 
-$ \overline{z} $ = $〈bra| $
+$\overline{z}$ = $〈bra|$
 
 
-$∣a〉=\begin{vmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{vmatrix}$
+$∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
 
 
 
-$〈a| =\begin{vmatrix}a{1}-ib{1}&a{2}-ib{2}&a{3}-ib{3}\end{vmatrix}$
+$〈a| =\begin{bmatrix}a{1}-ib{1}&a{2}-ib{2}&a{3}-ib{3}\end{bmatrix}$
 
  
 
