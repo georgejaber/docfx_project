@@ -118,7 +118,7 @@ complex number = $ {\sqrt {-1}} $
 
 و تمثل على شكل مصفوفة كما هو موضح
 
- $∣a〉=\begin{vmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{vmatrix}$
+ $∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
 
 
 
@@ -142,11 +142,11 @@ $\overline{z}=x-iy$
 $\overline{z}$ = $〈bra|$
 
 
-$∣a〉=\begin{vmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{vmatrix}$
+$∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
 
 
 
-$〈a| =\begin{vmatrix}a{1}-ib{1}&a{2}-ib{2}&a{3}-ib{3}\end{vmatrix}$
+$〈a| =\begin{bmatrix}a{1}-ib{1}&a{2}-ib{2}&a{3}-ib{3}\end{bmatrix}$
 
  
 

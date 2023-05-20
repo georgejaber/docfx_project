@@ -11,17 +11,17 @@
 
 بالرجوع إلى الوراء، اننا نعلم ان يمكن تمثيل حالة الكيوبت بهذا 
 المتجه
-$\begin{vmatrix}\alpha\\\beta\end{vmatrix}$ 
+$\begin{bmatrix}\alpha\\\beta\end{bmatrix}$ 
 
 ومن هذه المعادلة لا يوجد قيود بأن نمثل الكيوبت فقط بأرقام بين الصفر والواحد  بل يمكننا استخدام الأعداد السالبة والأعداد المركبة.
 باستخدام الأعداد المركبة يمكننا تمثيل حالة الكيوبت بهذا 
 المتجه
-$\begin{vmatrix}a_{1}+ib_{1}\\a_{2}+ib_{2}\end{vmatrix}$ 
+$\begin{bmatrix}a_{1}+ib_{1}\\a_{2}+ib_{2}\end{bmatrix}$ 
 
 وبهذه الحالة فاننا نحتاج الى اربع متغيرات لكي نمثل حالة الكيوبت، فكيف يمكننا تمثيل هذه الحالة على كرة بلوخ ؟
 يمكننا ذلك لأن الحالة العامة (global phase) لا تؤثر على حالة الكيوبت.<!-- 3 -->
 
-$\begin{vmatrix}1\\-1\end{vmatrix}=-1\begin{vmatrix}-1\\1\end{vmatrix}\rightarrow\begin{vmatrix}1\\-1\end{vmatrix}=\begin{vmatrix}-1\\1\end{vmatrix}$
+$\begin{bmatrix}1\\-1\end{bmatrix}=-1\begin{bmatrix}-1\\1\end{bmatrix}\rightarrow\begin{bmatrix}1\\-1\end{bmatrix}=\begin{bmatrix}-1\\1\end{bmatrix}$
 
 ويمكن تمثيل حالة الكيوبت بهذه المعادلة 
  $cos(\theta)∣0〉+sin(\theta)∣1〉$ 
