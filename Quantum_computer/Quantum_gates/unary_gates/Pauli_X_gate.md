@@ -8,7 +8,7 @@
 
 
 
- حيث نرى من الجانب الرياضي اننا نعبر عن الدالة الموجية بمصفوفة والتي تعني متجه في complex plane وكما وضحنا سابقا و بالاعتماد على هذا فان الطريقة الرياضية في الحصول على معكوس الكيوبيت او عملية نفيه تحتاج منا ان نقوم بضرب مصفوفة دالة الموجة في مصفوفة x وهذه تكافىء Not gate في الحاسوب الكلاسيكي 
+ حيث نرى من الجانب الرياضي اننا نعبر عن الدالة الموجية بمصفوفة والتي تعني متجه في complex plane كما اوضحنا سابقا و بالاعتماد على هذا فان الطريقة الرياضية في الحصول على معكوس الكيوبيت او عملية نفيه تحتاج منا ان نقوم بضرب مصفوفة دالة الموجة في مصفوفة x وهذه تكافىء Not gate في الحاسوب الكلاسيكي 
 
 
 
@@ -27,7 +27,7 @@ $|1〉\rightarrow|0〉$
 
 $ x=\begin{bmatrix}0&1\\1&0\end{bmatrix} $
 
-استخدام البوابة بالرياضيات 
+اجراء العملية رياضيا 
 
 $|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow x\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1&0\\0&1\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}0.1+1.0\\1.1+0.0\end{bmatrix}=\begin{bmatrix}0\\1\end{bmatrix}=|1〉$
 
@@ -36,4 +36,6 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow x\begin{bmatrix}0\\1\end{bmat
 
  <!-- ![pauli x](~/images/pauli_x_gate1.jpg) -->
 
+ تمثيل البوابة
+ 
  ![pauli x gif](~/images/paulixG.gif)
