@@ -10,14 +10,7 @@
 
  ![Quantum-controlled-NOT-gate](~/images/Quantum-controlled-NOT-gate.png)
 
-$CNOT = $
-\begin{bmatrix}
-1&0&0&0 \\
-0&1&0&0 \\
-0&0&0&1 \\
-0&0&1&0 \\
-\end{bmatrix}
-$
+$CNOT=$ $\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\\\end{bmatrix}$
 
 
 | input       | output      |
