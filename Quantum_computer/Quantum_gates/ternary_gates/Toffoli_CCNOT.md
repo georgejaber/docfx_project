@@ -1,4 +1,4 @@
-# توفولي Toffoli (CCNOT) gate
+## بوابة توفولي Toffoli (CCNOT) gate
 
 
 
