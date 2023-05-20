@@ -149,7 +149,7 @@ complex number = $ {\sqrt {-1}} $
 
 
 
-## the  complex conjugate
+## الاتحاد المركب (the  complex conjugate)
 
 يتم تكوين الاتحاد المركب (complex conjugate)عن طريق تغيير الإشارة بين المكونين الحقيقي والخيالي للعدد المركب. 
 
