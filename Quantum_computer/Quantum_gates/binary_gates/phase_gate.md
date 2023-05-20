@@ -1,4 +1,4 @@
-# بوابة phase المتحكم controlled-phase-gate
+## بوابة المرحلة المضبوطة (controlled-phase-gate)
 
 
 
