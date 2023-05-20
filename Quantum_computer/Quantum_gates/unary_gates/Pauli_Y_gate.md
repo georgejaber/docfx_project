@@ -29,5 +29,6 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow x\begin{bmatrix}0\\1\end{bmat
 
 
   <!-- ![pauli y](~/images/Pauli-y2.png) -->
+ محاكاة البوابة
 
  ![pauli y gif](~/images/pauliyG.gif)
