@@ -14,5 +14,24 @@
 
 <!-- مصفوفة باولي -->
 
+
+تمثيل ديراك
+
+$|0〉\rightarrow|0〉$
+
+$|1〉\rightarrow|1〉$
+
+تمثيل البوابة بمصفوفة 
+
+$ I=\begin{bmatrix}1&0\\0&1\end{bmatrix} $
+
+اجراء العملية رياضيا 
+
+$|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow I\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1&0\\0&1\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1.1+0.0\\0.1+1.0\end{bmatrix}=\begin{bmatrix}1\\0\end{bmatrix}=|0〉$
+
+$|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow I\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1&0\\0&1\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1.0+0.1\\0.0+1.1\end{bmatrix}=\begin{bmatrix}0\\1\end{bmatrix}=|1〉$
+
+
+
  ![pauli i gif](~/images/pauliIG.gif)
 
