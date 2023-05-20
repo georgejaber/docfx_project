@@ -1,6 +1,6 @@
 # دارة التنقل
 
-![TeleportationA](~/images/TeleportationA.png)
+![TeleportationA](~/images/teleportationA.png)
 
 ```
 OPENQASM 2.0;
