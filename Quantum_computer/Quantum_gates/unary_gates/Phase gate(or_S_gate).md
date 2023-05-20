@@ -6,7 +6,4 @@
 
  $S=p(\lambda=\pi/2)$
 
-$p(\lambda )=\begin{pmatrix}
-1&0\\
-0&e^{i\lambda }\\
-\end{pmatrix}$
+$p(\lambda )=\begin{pmatrix}1&0\\0&e^{i\lambda}\\\end{pmatrix}$
