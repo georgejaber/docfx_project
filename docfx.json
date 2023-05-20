@@ -8,6 +8,7 @@
           ]
         }
       ],
+      "_enableNewTab": true,
       "dest": "api",
       "includePrivateMembers": false,
       "disableGitFeatures": false,
