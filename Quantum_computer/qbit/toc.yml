@@ -3,6 +3,6 @@ items:
     href: Definition_of_qbit.md
   - name: كرة بلوخ
     href: Bloch_sphere.md
-  - name: تطبيق الكيوبت 
+  - name: بناء الكيوبت 
     href: qbit_application.md
 
