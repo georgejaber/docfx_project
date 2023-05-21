@@ -16,8 +16,11 @@
 
 تمثيل البوابة بمصفوفة 
 
+ <div align="center">
+
 $CNOT=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\\\end{bmatrix}$
 
+</div>
 
 
 |  (Input)المدخلات|(Output)المخرجات|

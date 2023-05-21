@@ -1,6 +1,7 @@
 # بوابة T  ($gate$ $T$)
 
 وهي عبارة  بوابة احادية الكيوبت و تشكل هذه البوابة ربع البوابة Z و نصف البوابة S اي اثنتان من البوابة T تساوي البوابة S 
+ <div align="center">
 
 $ S=T^{2}$
 
@@ -9,7 +10,7 @@ $ S=T^{2}$
 
 
 $S= p(\lambda )=\begin{pmatrix}1&0\\0&e^{iπ/4}\\\end{pmatrix}$
-
+</div>
 
 
 ![Bloch_sphere_t](~/images/tgate.gif)

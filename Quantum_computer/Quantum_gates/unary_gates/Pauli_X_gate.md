@@ -15,6 +15,7 @@
  
 
 تمثيل ديراك
+ <div align="center">
 
 $|0〉\rightarrow|1〉$
 
@@ -29,7 +30,7 @@ $ x=\begin{bmatrix}0&1\\1&0\end{bmatrix} $
 $|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow x\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}0&1\\1&0\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}0.1+1.0\\1.1+0.0\end{bmatrix}=\begin{bmatrix}0\\1\end{bmatrix}=|1〉$
 
 $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow x\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}0&1\\1&0\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}0.0+1.1\\1.0+0.1\end{bmatrix}=\begin{bmatrix}1\\0\end{bmatrix}=|0〉$
-
+</div>
 
 
 

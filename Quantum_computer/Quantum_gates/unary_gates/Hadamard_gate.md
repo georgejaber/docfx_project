@@ -4,6 +4,7 @@
     
 
 تمثيل ديراك
+ <div align="center">
 
 $|0〉\rightarrow\frac{1}{\sqrt{2}}\ (|0〉+|1〉)$
 
@@ -22,7 +23,7 @@ $|0〉=H \begin{bmatrix}1\\0\end{bmatrix}\Rightarrow \frac{1}{\sqrt{2}}\begin{bm
 
 
 $|1〉=H \begin{bmatrix}0\\1\end{bmatrix}\Rightarrow \frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}$
-
+</div>
 
 ![Hadamard_Gate ex](~/images/Bloch_sphere_Hadamard.png)
 

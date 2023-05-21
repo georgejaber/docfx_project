@@ -6,6 +6,7 @@
 
  تُعرف بوابة S أيضًا باسم بوابة الطور أو بوابة Z90
 
+ <div align="center">
 
  $S=p(\lambda=\pi/2)$
 
@@ -20,7 +21,7 @@ $|1〉\rightarrow  |0〉$ -->
 
 
 $S= p(\lambda )=\begin{pmatrix}1&0\\0&e^{i\lambda}\\\end{pmatrix} =\begin{pmatrix}1&0\\0&i\\\end{pmatrix}$
-
+</div>
 
 ![Bloch_sphere_phase](~/images/phase.gif)
 
