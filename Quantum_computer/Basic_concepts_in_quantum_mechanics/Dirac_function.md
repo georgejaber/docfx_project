@@ -156,6 +156,7 @@ complex number=${\sqrt{-1}}$
  <div align="center">
 
 $\overline{z}=a-ib$
+
 </div>
 
 و يمثل الاتحاد المركب (complex conjugate) 
