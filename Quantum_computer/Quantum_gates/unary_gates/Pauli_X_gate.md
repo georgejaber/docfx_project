@@ -2,7 +2,7 @@
 
 
 
-هي بوابة احادية الكيوبت  تقوم بعملية عكس المصفوفة اي انها  تقوم بعملية دوران بمقدار($180°$
+هي بوابة Hحادية الكيوبت  تقوم بعملية عكس المصفوفة Hي Hنها  تقوم بعملية دوران بمقدار($180°$
 ) حول محور س في كرة بلوخ
 <!--هذه الجملة بحاجة الى ترتيب  -->
 
@@ -27,7 +27,7 @@ $|1〉\rightarrow|0〉$
 
 $ x=\begin{bmatrix}0&1\\1&0\end{bmatrix} $
 
-اجراء العملية رياضيا 
+إجراء العملية رياضيا 
 
 $|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow x\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}0&1\\1&0\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}0.1+1.0\\1.1+0.0\end{bmatrix}=\begin{bmatrix}0\\1\end{bmatrix}=|1〉$
 
