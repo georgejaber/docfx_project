@@ -48,7 +48,7 @@ $(1,1)$
  <PackageReference Include="Microsoft.DocAsCode.App" Version="2.60.0" />
  
 > [!IMPORTANT]
- > ## ملحق:
+ > ملحق:
  >
 > ساي:ψ
 >
