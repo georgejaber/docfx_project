@@ -11,13 +11,13 @@ $|0〉\rightarrow\frac{1}{\sqrt{2}}\ (|0〉+|1〉)$
 $|1〉\rightarrow\frac{1}{\sqrt{2}}\ (|0〉-|1〉)$
 
 
-تمثيل البوابة بمصفوفة 
+- تمثيل البوابة بمصفوفة 
 
 $H=\frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\\\end{bmatrix}$
 
 
 
-إجراء العملية رياضياً 
+- إجراء العملية رياضياً 
 
 $|0〉=H \begin{bmatrix}1\\0\end{bmatrix}\Rightarrow \frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}$
 
