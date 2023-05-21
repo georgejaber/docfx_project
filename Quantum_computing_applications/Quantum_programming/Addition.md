@@ -1,5 +1,6 @@
 ## دارة الجمع (Full Adder)
-هناك أنواع مختلفة من الإضافات الثنائية مثل الإضافات النصفية half adders ، والإضافات الكاملة full adders، والأضافات الحاملة للتموجripple carry adders etcetera وما إلى ذلك
+هناك أنواع مختلفة من الإضافات الثنائية مثل الإضافات النصفية 
+half adders ، والإضافات الكاملة full adders
 
 <!-- هنا يوجد Herfs يجب اضافتها -->
 ## برمجياً
@@ -9,7 +10,7 @@
 
 
 
-![Full adder](~/images/fullAdder2.png)
+![Full adder](~/images/FullAdder2.png)
 ```
 OPENQASM 2.0;
 include "qelib1.inc";
@@ -46,10 +47,10 @@ cx q[0], q[1];            #step 5
 في اخر خطوة نقوم ايضا باستخدام بوابة النفي CX التي قمنا باستخدامها سابقا و نضعها بين الكيوبت صفر و واحد 
 
 #### الجدول التالي يعرض الحالات للكيوبت 
-![Full adder](~/images/fullAdder3.png)
+![Full adder](~/images/FullAdder3.png)
 
 ##### الخطوة السادسة
 مع إضافة بوابة هدامارت إلى  q0 و q2 
 حيث تقوم بوابة هدامارت بإدخال الكيوبت في وضع الفائق 
 
-![Full adder](~/images/fullAdder4.png)
+![Full adder](~/images/FullAdder4.png)
