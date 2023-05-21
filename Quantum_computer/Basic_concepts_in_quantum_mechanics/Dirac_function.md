@@ -11,25 +11,20 @@
 
 كيفية استخدام 
 
-<div align="center">
  
-$bra-ket$ $algebra$
-$ket$:  الشرط البدائي (الحالة عند مغادرة المصدر)
+bra-ket algebra
+ket:  الشرط البدائي (الحالة عند مغادرة المصدر)
 
-$bra$: تشير إلى الشرط النهائي (المكان او الحالة التي يراد حساب احتمال تواجد الجسم فيها)
-
-</div>
-
+bra: تشير إلى الشرط النهائي (المكان او الحالة التي يراد حساب احتمال تواجد الجسم فيها)
 
 <div align="center">
- 
+
  $|〈bra|ket〉|^{2}=x$
-</div>
 احتمال وجود الالكترون في مكان ما 
 
-<div align="center">
- 
+
  $〈Particle Arrive (xn) | Leave Source〉$
+
 </div>
 
 
@@ -49,7 +44,9 @@ $bra$: تشير إلى الشرط النهائي (المكان او الحالة
  
 
 $|〈n2|n3〉| ^{2} = x$
+
 </div>
+
   و هذه المعادلة  بعد عملية الرصد اي انك تحاول حساب احتمال اتقال الالكترون الى المدار الثاني ويعني بأن المكان الذي تنوي حساب احتمال التواجد فيه معلوم 
 
   اما اذا كان الجسم غير مرصود اي في حالة التراكب الكمومي ($Superposition$) أو كما يطلق عليها البعض شبح ديراك 
@@ -62,7 +59,7 @@ $∣ket〉$
 فمثلا 
 
 <div align="center">
- 
+
 $∣s〉=∣Down〉+∣Up〉$
 
 $∣s〉=∣←〉+∣→〉$
@@ -70,7 +67,9 @@ $∣s〉=∣←〉+∣→〉$
 $∣s〉=∣↑〉+∣↓〉$
 
 $∣s〉= ∣x1〉+∣x2〉+∣x3〉+∣x4〉∣xn〉$
+
 </div>
+
 ولا تعني بأنها تمثل فقط احتماليا انما تعني جميع الحالات الممكنة اي اكثر من احتماليا 
 
 ## تمثيلها بمتجهات و مصفوفات 
@@ -95,11 +94,11 @@ $ op= xi + yj + zk  $
 <!--تحويل الصورة الى صيغة رياضية   اشقر -->
 
 
-$\begin{bmatrix}1\\0\\0\end{bmatrix}$
+$i$ = $\begin{bmatrix}1\\0\\0\end{bmatrix}$
 
-$\begin{bmatrix}0\\1\\0\end{bmatrix}$
+ $j$ = $\begin{bmatrix}0\\1\\0\end{bmatrix}$
 
-$\begin{bmatrix}0\\0\\1\end{bmatrix}$
+$k$ = $\begin{bmatrix}0\\0\\1\end{bmatrix}$
 
 
 ومن خلال تطيق المعادلة السابقة 
@@ -112,12 +111,15 @@ $=$ $x\begin{bmatrix}1\\0\\0\end{bmatrix}$ $+$  $y\begin{bmatrix}0\\1\\0\end{bma
 
 
  $op= \begin{bmatrix}x\\y\\z\end{bmatrix}$
+
 </div>
 
 هذه في الوضع الكلاسيكي اما في عالم ميكانيكا الكم بأمكانك تمثيل حالة الجسيم قبل القياس بمصفوفات ولكن تحتوي على عدد مركب (Complex number)   
+
  <div align="center">
  
-complex number = $ {\sqrt {-1}} $
+complex number=${\sqrt{-1}}$
+</div>
 
 و يمثل هذا المتجه في (complex_plane) 
 
@@ -132,8 +134,10 @@ complex number = $ {\sqrt {-1}} $
  i = $ {\sqrt {-1}} $
 
 و تمثل على شكل مصفوفة كما هو موضح
-
+ <div align="center">
+ 
  $∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
+
 </div>
 
 
@@ -153,7 +157,9 @@ complex number = $ {\sqrt {-1}} $
 
 $\overline{z}=a-ib$
 </div>
+
 و يمثل الاتحاد المركب (complex conjugate) 
+
  <div align="center">
 
 $\overline{z}$ = $〈bra|$
@@ -164,6 +170,7 @@ $∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
 
 
 $〈a| =\begin{bmatrix}a{1}-ib{1}&a{2}-ib{2}&a{3}-ib{3}\end{bmatrix}$
+
 </div>
  
 
