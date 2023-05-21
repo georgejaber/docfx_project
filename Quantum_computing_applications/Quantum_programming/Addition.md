@@ -81,14 +81,14 @@ reset q[1];
 
 
 
-و نستخدم بوابة  توفولي (Toffoli gate) او (double controlled-NOT gate (CCX 
+و نستخدم [بوابة توفولي](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md)   (Toffoli gate) او (double controlled-NOT gate ([CCX ](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md) 
 على الكيوبت الاول و الثاني و ثلاث 
 ```
 ccx q[0], q[1], q[3];
 ```
 
 
- في هذه الخطوة نقوم بأضافة بوابة النفي المتحكم controlled not (CNOT)
+ في هذه الخطوة نقوم بأضافة بوابة النفي المتحكم [CX](xref:uid_toQuantum_computer\Quantum_gates\binary_gates\CNOT_gate.md)
 بين الكيوبت  الاول و الكيوبت الثاني
 
 ```
@@ -96,20 +96,21 @@ cx q[0], q[1];
 ```
 
 
-و نستخدم بوابة  توفولي (Toffoli gate) او (double controlled-NOT gate (CCX 
+و نستخدم [بوابة توفولي](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md)
+ (Toffoli gate) او (double controlled-NOT gate ([CCX](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md) 
 على الكيوبت الثاني و الثالث و الرابع 
 
 ```
 ccx q[1], q[2], q[3];
 ```
 
-نقوم ايضا في هذه المرحلة باستخدام بوابة CX والتي تقوم بعملية نفي بين الكيوبت الثاني و الثالث 
+نقوم ايضا في هذه المرحلة باستخدام بوابة [CX](xref:uid_toQuantum_computer\Quantum_gates\binary_gates\CNOT_gate.md) والتي تقوم بعملية نفي بين الكيوبت الثاني و الثالث 
 
 ```
 cx q[1], q[2];
 ```
 
-نقوم ايضا في هذه المرحلة باستخدام بوابة CX والتي تقوم بعملية نفي بين الكيوبت الاول و الثاني 
+نقوم ايضا في هذه المرحلة باستخدام بوابة [CX](xref:uid_toQuantum_computer\Quantum_gates\binary_gates\CNOT_gate.md) والتي تقوم بعملية نفي بين الكيوبت الاول و الثاني 
 
 ```
 cx q[0], q[1];
@@ -144,5 +145,10 @@ measure q[3] -> c[3];
 ###### الحاسوب الكمي المستخدم في التجربة 
 
 ![device_specifications ](~/images/device_specifications.png)
+
+
+
+
+[جرب هذه الدارة على موقع IBM ](https://quantum-computing.ibm.com/composer/files/9b73997a5cb3e01cb1cacfeea045aaf51fc38fe49256b3da851c232bb12e7a8f)
 
 
