@@ -13,6 +13,7 @@ Quantum teleportation(الانتقال الأني  الكمي)
 
 ![teleportation figure](~/images/teleportation2.png)
 
+
 ``` 
 OPENQASM 2.0
 include "qelib1.inc";

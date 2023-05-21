@@ -8,6 +8,7 @@
 
 
 تمثيل البوابة بمصفوفة 
+ <div align="center">
 
 $SWAP=\begin{bmatrix}1&0&0&0\\0&0&1&0\\0&1&0&0\\0&0&0&1\\\end{bmatrix}$
-
+</div>
