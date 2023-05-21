@@ -27,8 +27,12 @@
 
 حيث Cij و i تشير الى الصف و j تشير الى العمود ل C=AB ![]
 
-$C_{ij}=\sum_{k}^{} A_{ik} B_{kj}$
 
+<div align="center">
+
+ $C_{ij}=\sum_{k}^{} A_{ik} B_{kj}$
+ 
+</div>
 tensor network 
 
 وهي مجموعة من tensor  …

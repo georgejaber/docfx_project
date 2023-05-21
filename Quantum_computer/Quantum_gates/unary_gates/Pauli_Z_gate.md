@@ -9,6 +9,7 @@
 ![Bloch_sphere_pauli_z](~/images/pauliz.gif)
 
 تمثيل ديراك
+ <div align="center">
 
 $|0〉\rightarrow|0〉$
 
@@ -24,7 +25,7 @@ $ Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix} $
 $|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow Z\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1&0\\0&-1\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1.1+0.0\\0.1+(-1).0\end{bmatrix}=\begin{bmatrix}1\\0\end{bmatrix}=|0〉$
 
 $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow Z\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1&0\\0&-1\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1.0+0.1\\0.0+(-1).1\end{bmatrix}=\begin{bmatrix}0\\-1\end{bmatrix}=-|1〉$
-
+</div>
 
  
 
