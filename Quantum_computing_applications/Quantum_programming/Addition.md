@@ -1,5 +1,6 @@
 ## دارة الجمع (Full Adder)
-هناك أنواع مختلفة من الإضافات الثنائية مثل الإضافات النصفية half adders ، والإضافات الكاملة full adders، والأضافات الحاملة للتموجripple carry adders etcetera وما إلى ذلك
+هناك أنواع مختلفة من الإضافات الثنائية مثل الإضافات النصفية 
+half adders ، والإضافات الكاملة full adders
 
 <!-- هنا يوجد Herfs يجب اضافتها -->
 ## برمجياً
@@ -9,7 +10,7 @@
 
 
 
-![Full adder](~/images/fullAdder2.png)
+![Full adder](~/images/FullAdder2.png)
 ```
 OPENQASM 2.0;
 include "qelib1.inc";
