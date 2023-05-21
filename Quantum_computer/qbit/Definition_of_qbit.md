@@ -45,6 +45,8 @@ $(1,1)$
  
  |α|^2 + |β|^2 + |γ|^2 + |δ|^2 =1 
  
+ <PackageReference Include="Microsoft.DocAsCode.App" Version="2.60.0" />
+ 
  [!IMPORTANT]
  > ## ملحق:
 > ساي:ψ
