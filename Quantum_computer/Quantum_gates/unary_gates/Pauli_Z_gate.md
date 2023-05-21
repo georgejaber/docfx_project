@@ -6,7 +6,7 @@
 
  و الطريقة الرياضية في الحصول عكس اشارة الكيوبت  تحتاج منا ان نقوم بضرب مصفوفة الكيوبت في مصفوفة z 
 
-![Bloch_sphere_pauli_z](~/images/Bloch_sphere_pauli_z1.png)
+![Bloch_sphere_pauli_z](~/images/pauliz.gif)
 
 تمثيل ديراك
 
@@ -26,9 +26,6 @@ $|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow Z\begin{bmatrix}1\\0\end{bmat
 $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow Z\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1&0\\0&-1\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1.0+0.1\\0.0+(-1).1\end{bmatrix}=\begin{bmatrix}0\\-1\end{bmatrix}=-|1〉$
 
 
-محاكاة البوابة
-
- ![pauli x gif](~/images/pauliZG.gif)
  
 
 <!-- المصادر -->

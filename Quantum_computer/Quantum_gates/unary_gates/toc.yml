@@ -16,6 +16,8 @@ items:
     href: Hadamard_gate.md
 
   - name: بوابة المرحلة   
-    href: Phase gate(or_S_gate).md
+    href: phase-gate.md
 
+  - name: T بوابة   
+    href: T_gate.md
 

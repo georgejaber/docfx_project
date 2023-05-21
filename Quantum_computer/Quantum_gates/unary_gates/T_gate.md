@@ -12,7 +12,7 @@ $S= p(\lambda )=\begin{pmatrix}1&0\\0&e^{iπ/4}\\\end{pmatrix}$
 
 
 
-
+![Bloch_sphere_t](~/images/tgate.gif)
 
 <!-- المصادر  -->
 <!-- https://qiskit.org/documentation/stubs/qiskit.circuit.library.TGate.html -->
