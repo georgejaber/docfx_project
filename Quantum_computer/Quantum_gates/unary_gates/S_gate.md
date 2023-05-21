@@ -21,6 +21,8 @@ $|1〉\rightarrow  |0〉$ -->
 
 $S= p(\lambda )=\begin{pmatrix}1&0\\0&e^{i\lambda}\\\end{pmatrix} =\begin{pmatrix}1&0\\0&i\\\end{pmatrix}$
 
+
+
 <!-- 
 اجراء العملية رياضيا 
 
