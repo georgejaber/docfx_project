@@ -17,6 +17,7 @@ $p = probability$ (احتمالية)
 <div align="center">
 
 $P12=P1+P2$ 
+
 </div>
 اما اذا كان المصدر يرسل موجات 
 
