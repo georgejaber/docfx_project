@@ -11,7 +11,7 @@ half adder ، و دائرة الجمع الكاملة full adder
 يمكن بناء دائرة الجمع الكامل في الحاسوب الكمي كما سنوضح في المثال التالي كيف يتم انشاء الدارة بأستخدام بعض البوابات الكمية 
 
 
-![Full adder](~/images/FullAdderWithoutHadamard2.png)
+![Full adder](~/images/FullAdderWithoutHadamard3.png)
 
 ```
 OPENQASM 2.0;
