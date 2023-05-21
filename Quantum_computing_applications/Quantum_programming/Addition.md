@@ -10,7 +10,7 @@ half adders ، والإضافات الكاملة full adders
 
 
 
-![Full adder](~/images/FullAdder2.png)
+![Full adder](~/images/FullAdderWithoutHadamard.png)
 ```
 OPENQASM 2.0;
 include "qelib1.inc";
