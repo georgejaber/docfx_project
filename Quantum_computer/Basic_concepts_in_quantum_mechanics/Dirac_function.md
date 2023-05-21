@@ -58,7 +58,7 @@ $∣ket〉$
 فمثلا 
 
 <div align="center">
- 
+
 $∣s〉=∣Down〉+∣Up〉$
 
 $∣s〉=∣←〉+∣→〉$
@@ -117,7 +117,8 @@ $=$ $x\begin{bmatrix}1\\0\\0\end{bmatrix}$ $+$  $y\begin{bmatrix}0\\1\\0\end{bma
 
  <div align="center">
  
-complex number = $ {\sqrt {-1}} $
+complex number=${\sqrt{-1}}$
+</div>
 
 و يمثل هذا المتجه في (complex_plane) 
 
@@ -133,6 +134,8 @@ complex number = $ {\sqrt {-1}} $
 
 و تمثل على شكل مصفوفة كما هو موضح
 
+ <div align="center">
+ 
  $∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
 
 </div>
