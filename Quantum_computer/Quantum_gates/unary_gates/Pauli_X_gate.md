@@ -11,7 +11,7 @@
 
 تمثيل العملية على كرة بلوخ
 
- ![Bloch_sphere_pauli_x1](~/images/Bloch_sphere_pauli_x1.png)
+ ![Bloch_sphere_pauli_x](~/images/paulix.gif)
  
 
 تمثيل ديراك
@@ -34,10 +34,6 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow x\begin{bmatrix}0\\1\end{bmat
 
 
  <!-- ![pauli x](~/images/pauli_x_gate1.jpg) -->
-
- محاكاة البوابة
-
- ![pauli x gif](~/images/paulixG.gif)
 
 
 <!-- المصادر -->

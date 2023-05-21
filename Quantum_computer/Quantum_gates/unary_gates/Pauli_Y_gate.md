@@ -7,7 +7,7 @@
 و الطريقة الرياضية في الحصول عكس اشارة الكيوبت وعكس قيمة الكيوبت تحتاج منا ان نقوم بضرب مصفوفة الكيوبت في مصفوفة y 
 
 
-![Bloch_sphere_pauli_y](~/images/Bloch_sphere_pauli_y1.png)
+![Bloch_sphere_pauli_y](~/images/pauliy.gif)
 
 
 
@@ -29,9 +29,6 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow Y\begin{bmatrix}0\\1\end{bmat
 
 
   <!-- ![pauli y](~/images/Pauli-y2.png) -->
- محاكاة البوابة
-
- ![pauli y gif](~/images/pauliyG.gif)
 
 
 
