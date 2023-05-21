@@ -117,9 +117,7 @@ cx q[0], q[1];
 
 ##### الخطوة الرابعة (القياس)
 
-
-القياس
-
+تقوم بقياس قيمة الكيوبت و تخزينها في البت الكلاسيكي المقابل  
 ```
 measure q[0] -> c[0];
 
@@ -129,3 +127,21 @@ measure q[2] -> c[2];
 
 measure q[3] -> c[3];
 ```
+
+
+##### النتائج 
+###### النتيجة المتوقعة نظرياً
+
+![theoretical_result ](~/images/theoretical_result.png)
+
+
+###### النتيجة العملية
+
+![practical_result ](~/images/practical_result.png)
+
+
+###### الحاسوب الكمي المستخدم في التجربة 
+
+![device_specifications ](~/images/device_specifications.png)
+
+
