@@ -22,6 +22,7 @@ bra: تشير إلى الشرط النهائي (المكان او الحالة �
  $|〈bra|ket〉|^{2}=x$
 احتمال وجود الالكترون في مكان ما 
 
+
  $〈Particle Arrive (xn) | Leave Source〉$
 
 </div>
@@ -133,7 +134,6 @@ complex number=${\sqrt{-1}}$
  i = $ {\sqrt {-1}} $
 
 و تمثل على شكل مصفوفة كما هو موضح
-
  <div align="center">
  
  $∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
@@ -146,7 +146,7 @@ complex number=${\sqrt{-1}}$
 
 يتم تكوين الاتحاد المركب (complex conjugate)عن طريق تغيير الإشارة بين المكونين الحقيقي والخيالي للعدد المركب. 
 
- <!--![the  complex conjugate](~/images/Complex_conjugate.png)-->
+ ![the  complex conjugate](~/images/Complex_conjugate.png)
 
 
 
@@ -155,7 +155,7 @@ complex number=${\sqrt{-1}}$
 
  <div align="center">
 
-$\overline{z}=x-iy$
+$\overline{z}=a-ib$
 
 </div>
 

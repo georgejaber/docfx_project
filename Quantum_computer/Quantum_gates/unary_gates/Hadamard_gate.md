@@ -3,7 +3,7 @@
 وهي عبارة  بوابة أحادية الكيوبت  تقوم بإدخال الكيوبت  في الوضع الفائق(superposition) عن طريق القيام بعملية دوران حول المحور x بمقدار 90 درجة و حول المحور y بمقدار 180 درجة في كرة بلوخ
     
 
-تمثيل ديراك
+- تمثيل ديراك
  <div align="center">
 
 $|0〉\rightarrow\frac{1}{\sqrt{2}}\ (|0〉+|1〉)$
@@ -11,13 +11,13 @@ $|0〉\rightarrow\frac{1}{\sqrt{2}}\ (|0〉+|1〉)$
 $|1〉\rightarrow\frac{1}{\sqrt{2}}\ (|0〉-|1〉)$
 
 
-تمثيل البوابة بمصفوفة 
+- تمثيل البوابة بمصفوفة 
 
 $H=\frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\\\end{bmatrix}$
 
 
 
-إجراء العملية رياضياً 
+- إجراء العملية رياضياً 
 
 $|0〉=H \begin{bmatrix}1\\0\end{bmatrix}\Rightarrow \frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\frac{1}{\sqrt{2}}\begin{bmatrix}1\\1\end{bmatrix}$
 
