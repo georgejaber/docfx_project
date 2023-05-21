@@ -14,6 +14,8 @@ $S= p(\lambda )=\begin{pmatrix}1&0\\0&e^{iπ/4}\\\end{pmatrix}$
 </div>
 
 - تمثيل العملية على كرة بلوخ
+
+
 ![Bloch_sphere_t](~/images/tgate.gif)
 
 <!-- المصادر  -->
