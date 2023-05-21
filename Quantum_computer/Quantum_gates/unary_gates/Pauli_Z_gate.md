@@ -1,8 +1,9 @@
 ##  بوابة باولي العينية (على المحور ع)  ($gate$ $Pauli-z$)
 
-هي بوابة احادية الكيوبت وتقوم بعملية دوران بمقدار
-(180°) حول المحور Z في كرة بلوخ ، أي انها تعكس اشارة الكيوبت.
+هي بوابة أحادية الكيوبت وتقوم بعملية دوران بمقدار
+(180°) حول المحور Z في كرة بلوخ ، أي أنها تعكس إشارة الكيوبت.
  
+
  و الطريقة الرياضية في الحصول عكس اشارة الكيوبت  تحتاج منا ان نقوم بضرب مصفوفة الكيوبت في مصفوفة z 
 
 ![Bloch_sphere_pauli_z](~/images/Bloch_sphere_pauli_z1.png)
@@ -18,7 +19,7 @@ $|1〉\rightarrow -|1〉$
 $ Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix} $
 
 
-اجراء العملية رياضيا 
+إجراء العملية رياضياً 
 
 $|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow Z\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1&0\\0&-1\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1.1+0.0\\0.1+(-1).0\end{bmatrix}=\begin{bmatrix}1\\0\end{bmatrix}=|0〉$
 
