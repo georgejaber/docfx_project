@@ -96,11 +96,7 @@ $ op= xi + yj + zk  $
 <!--تحويل الصورة الى صيغة رياضية   اشقر -->
 
 
-$i$ = $\begin{bmatrix}1\\0\\0\end{bmatrix}$
-
- $j$ = $\begin{bmatrix}0\\1\\0\end{bmatrix}$
-
-$k$ = $\begin{bmatrix}0\\0\\1\end{bmatrix}$
+$i$ = $\begin{bmatrix}1\\0\\0\end{bmatrix}$  $j$ = $\begin{bmatrix}0\\1\\0\end{bmatrix}$ $k$ = $\begin{bmatrix}0\\0\\1\end{bmatrix}$
 
 
 ومن خلال تطيق المعادلة السابقة 
@@ -120,7 +116,8 @@ $=$ $x\begin{bmatrix}1\\0\\0\end{bmatrix}$ $+$  $y\begin{bmatrix}0\\1\\0\end{bma
 
  <div align="right">
  
-complex number=${\sqrt{-1}}$
+complex number= ${\sqrt{-1}}$
+
 </div>
 
 و يمثل هذا المتجه في (complex_plane) 
