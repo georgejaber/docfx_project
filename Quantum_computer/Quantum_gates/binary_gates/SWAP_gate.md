@@ -7,5 +7,9 @@
 ![Quantum-SWAP-gate](~/images/SWAP-Gate.jpeg)
 
 
+تمثيل البوابة بمصفوفة 
 
 $SWAP=\begin{bmatrix}1&0&0&0\\0&0&1&0\\0&1&0&0\\0&0&0&1\\\end{bmatrix}$
+
+
+

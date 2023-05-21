@@ -29,5 +29,7 @@ $|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow S\begin{bmatrix}1\\0\end{bmat
 $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow S\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}0&-i\\ i&0\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}0.0+-i.1\\ i.0+0.1\end{bmatrix}=\begin{bmatrix}-i\\0\end{bmatrix}=-i|0〉$ -->
 
 
+
+
 <!-- المصادر -->
 <!-- https://www.quantum-inspire.com/kbase/s-gate/ -->
