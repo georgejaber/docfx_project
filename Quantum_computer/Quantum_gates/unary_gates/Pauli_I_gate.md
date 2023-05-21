@@ -36,3 +36,6 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow I\begin{bmatrix}0\\1\end{bmat
 
  ![pauli i gif](~/images/pauliIG.gif)
 
+
+<!-- المصادر -->
+<!-- https://en.wikipedia.org/wiki/Quantum_logic_gate -->

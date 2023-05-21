@@ -30,3 +30,7 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow Z\begin{bmatrix}0\\1\end{bmat
 
  ![pauli x gif](~/images/pauliZG.gif)
  
+
+<!-- المصادر -->
+<!-- https://www.quantum-inspire.com/kbase/pauli-z/ -->
+<!-- https://en.wikipedia.org/wiki/Quantum_logic_gate -->

@@ -37,7 +37,7 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow x\begin{bmatrix}0\\1\end{bmat
 
 
 
+<!-- المصادر  -->
 
-
-
-<!-- https://www.quantum-inspire.com/kbase/pauli-z/ -->
+<!-- https://www.quantum-inspire.com/kbase/pauli-y/ -->
+<!-- https://en.wikipedia.org/wiki/Quantum_logic_gate -->
