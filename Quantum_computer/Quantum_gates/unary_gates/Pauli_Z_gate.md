@@ -1,13 +1,36 @@
 ##  بوابة باولي العينية (على المحور ع)  ($gate$ $Pauli-z$)
 
-تقوم بعمل نصف استدارة على محور Z ، أي انها تعكس اشارة الكيوبت.
+هي بوابة احادية الكيوبت وتقوم بعملية دوران بمقدار
+(180°) حول المحور Z في كرة بلوخ ، أي انها تعكس اشارة الكيوبت.
  
-
 
  حيث نرى من الجانب الرياضي اننا نعبر عن الدالة الموجية بمصفوفة والتي تعني متجه في complex plane وكما وضحنا سابقا و بالاعتماد على هذا فان الطريقة الرياضية في الحصول عكس اشارة الكيوبت و تحتاج منا ان نقوم بضرب مصفوفة دالة الموجة في مصفوفة z 
 
-  ![pauli z](~/images/Bloch_sphere_pauli_z1.png)
+![Bloch_sphere_pauli_z](~/images/Bloch_sphere_pauli_z1.png)
 
-$z=\sigma_{z}= \sigma_{3}=\begin{pmatrix}1&0\\0&-1\\\end{pmatrix}$
+تمثيل ديراك
+
+$|0〉\rightarrow|0〉$
+
+$|1〉\rightarrow -|1〉$
+
+تمثيل البوابة بمصفوفة 
+
+$ Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix} $
+
+
+اجراء العملية رياضيا 
+
+$|0〉=\begin{bmatrix}1\\0\end{bmatrix}\Rightarrow Z\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1&0\\0&-1\\\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}1.1+0.0\\0.1+(-1).0\end{bmatrix}=\begin{bmatrix}1\\0\end{bmatrix}=|0〉$
+
+$|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow Z\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1&0\\0&-1\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\begin{bmatrix}1.0+0.1\\0.0+(-1).1\end{bmatrix}=\begin{bmatrix}0\\-1\end{bmatrix}=-|1〉$
+
+
+محاكاة البوابة
+
  ![pauli x gif](~/images/pauliZG.gif)
  
+
+<!-- المصادر -->
+<!-- https://www.quantum-inspire.com/kbase/pauli-z/ -->
+<!-- https://en.wikipedia.org/wiki/Quantum_logic_gate -->
