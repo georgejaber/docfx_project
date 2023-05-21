@@ -3,7 +3,7 @@
 
 
 
- ![Qbit ](~/images/QBit.png)
+ ![Qbit ](~/images/QBit.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 
@@ -16,24 +16,24 @@
 
 في البت $bit$ الكلاسيكي البت يمثل احدى احتمالين اما ان يكون صفر او واحد (1،0). أما الكيوبت $Qbit$ فمن الممكن فيمثل صفر او واحد او صفر و واحد او حالة مركبة بينهما (بين ال 0 وال 1) ويطلق على الاحتمال الاخير الوضع الفائق $(superposition)$ .
 
- ![Qbit vs bit ](~/images/bit_vs_Qbit.jpeg)
+ ![Qbit vs bit ](~/images/bit_vs_Qbit.jpeg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 
 و اذا ضاعفت العدد في البت $bit$ العادي فأنك ستحصل على 4 احتمالات 
 
-$(0,0)$
-$(0,1)$
-$(1,0)$
-$(1,1)$
+$(0,0)${:style="display:block; margin-left:auto; margin-right:auto"}
+$(0,1)${:style="display:block; margin-left:auto; margin-right:auto"}
+$(1,0)${:style="display:block; margin-left:auto; margin-right:auto"}
+$(1,1)${:style="display:block; margin-left:auto; margin-right:auto"}
 
 اما في الكيوبت $Qbit$ فيمكن ان تكون في جميع الحالات في نفس الوقت
  
  
- (<00| ,<01| ,<10| ,<11|)
+ (<00| ,<01| ,<10| ,<11|){:style="display:block; margin-left:auto; margin-right:auto"}
  
  بشرط ان تكون جميعها في حالة تشابك(Entanglement) وفي حالة وضع فائق (Superposition)  
 
-|ψ> = α|00> + β|01> + γ|10> + δ|11>
+|ψ> = α|00> + β|01> + γ|10> + δ|11>{:style="display:block; margin-left:auto; margin-right:auto"}
 
 
  الوضع الفائق:ψ
@@ -43,7 +43,7 @@ $(1,1)$
  
  ويمكن حساب احتمال وجود النظام الكمي في احدى الحالات عن طريق مربع P.A لتلك الحالة بحيث يكون مجموع جميع الإحتمالت يساوي 1
  
- |α|^2 + |β|^2 + |γ|^2 + |δ|^2 =1 
+ |α|^2 + |β|^2 + |γ|^2 + |δ|^2 =1 {:style="display:block; margin-left:auto; margin-right:auto"}
  
  ## ملحق:
  ساي:ψ
