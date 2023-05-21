@@ -47,19 +47,20 @@ $(1,1)$
  
  <PackageReference Include="Microsoft.DocAsCode.App" Version="2.60.0" />
  
- [!IMPORTANT]
+> [!IMPORTANT]
  > ## ملحق:
-> ساي:ψ
  
-> <  |  : ترميز bra-ket ، أو ترميز Dirac 
+ ساي:ψ
 
-> الفا:α
 
-> بيتا:β
+ <  |  : ترميز bra-ket ، أو ترميز Dirac 
 
-> جاما:γ 
+ الفا:α
+ بيتا:β
 
-> ديلتا:δ
+ جاما:γ 
+
+ ديلتا:δ
 
 
 

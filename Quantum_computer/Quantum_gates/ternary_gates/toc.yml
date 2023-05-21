@@ -1,3 +1,6 @@
 items:
   - name: Toffoli_CCNOT   
     href: Toffoli_CCNOT.md
+
+  - name: CSwap   
+    href: CSwap.md
