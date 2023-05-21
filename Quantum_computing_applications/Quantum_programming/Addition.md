@@ -81,7 +81,7 @@ reset q[1];
 
 
 
-و نستخدم [بوابة توفولي](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md)   (Toffoli gate) او (double controlled-NOT gate ([CCX ](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md) 
+و نستخدم [بوابة توفولي](xref:docfx_project\Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md)   (Toffoli gate) او (double controlled-NOT gate ([CCX ](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md) 
 على الكيوبت الاول و الثاني و ثلاث 
 ```
 ccx q[0], q[1], q[3];
