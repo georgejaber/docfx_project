@@ -47,10 +47,10 @@ cx q[0], q[1];            #step 5
 في اخر خطوة نقوم ايضا باستخدام بوابة النفي CX التي قمنا باستخدامها سابقا و نضعها بين الكيوبت صفر و واحد 
 
 #### الجدول التالي يعرض الحالات للكيوبت 
-![Full adder](~/images/fullAdder3.png)
+![Full adder](~/images/FullAdder3.png)
 
 ##### الخطوة السادسة
 مع إضافة بوابة هدامارت إلى  q0 و q2 
 حيث تقوم بوابة هدامارت بإدخال الكيوبت في وضع الفائق 
 
-![Full adder](~/images/fullAdder4.png)
+![Full adder](~/images/FullAdder4.png)
