@@ -130,6 +130,7 @@ measure q[3] -> c[3];
 
 
 ##### النتائج 
+
 ###### النتيجة المتوقعة نظرياً
 
 ![theoretical_result ](~/images/theoretical_result.png)
