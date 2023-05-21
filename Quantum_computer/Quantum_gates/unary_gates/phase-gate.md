@@ -1,4 +1,5 @@
 ## بوابة المرحلة $(phase-gate)$ أو $(s-gate)$
+---
 
 
 هي بوابة احادية الكيوبت وتقوم بعملية دوران بمقدار
@@ -17,12 +18,16 @@ $|0〉\rightarrow  |1〉$
 
 $|1〉\rightarrow  |0〉$ -->
 
-تمثيل البوابة بمصفوفة 
+- تمثيل البوابة بمصفوفة 
 
 
 $S= p(\lambda )=\begin{pmatrix}1&0\\0&e^{i\lambda}\\\end{pmatrix} =\begin{pmatrix}1&0\\0&i\\\end{pmatrix}$
 </div>
 
+- تمثيل العملية على كرة بلوخ
+
+
+ 
 ![Bloch_sphere_phase](~/images/phase.gif)
 
 
