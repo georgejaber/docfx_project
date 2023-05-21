@@ -1,4 +1,5 @@
 ## بوابة النفي المتحكم controlled not (CNOT)
+---
 
 
 
