@@ -4,7 +4,7 @@
     
 
 تمثيل ديراك
- <div align="center">
+ <div align="right">
 
 $|0〉\rightarrow\frac{1}{\sqrt{2}}\ (|0〉+|1〉)$
 

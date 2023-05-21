@@ -6,7 +6,7 @@
 
  تُعرف بوابة S أيضًا باسم بوابة الطور أو بوابة Z90
 
- <div align="center">
+ <div align="right">
 
  $S=p(\lambda=\pi/2)$
 
