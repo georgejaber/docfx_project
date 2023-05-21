@@ -5,10 +5,8 @@ half adder ، و دائرة الجمع الكاملة full adder
 
 <!-- هنا يوجد Herfs يجب اضافتها -->
 ## برمجياً
-ويمكنك صنع adder  على الدوائر الكمومية 
-في هذا المثال سوف نوضح كيف يتم إنشاء full adder كمي وكيف يعمل هذا adder .
 
-يمكن بناء دائرة الجمع الكامل في الحاسوب الكمي كما سنوضح في المثال التالي كيف يتم انشاء الدارة بأستخدام بعض البوابات الكمية 
+يمكن بناء دائرة الجمع الكامل في الحاسوب الكمي بأستخدام بعض البوابات الكمية كما سنوضح في المثال التالي  . 
 
 
 ![Full adder](~/images/FullAdderWithoutHadamard3.png)
@@ -81,7 +79,7 @@ reset q[1];
 
 
 
-و نستخدم [بوابة توفولي](xref:docfx_project\Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md)   (Toffoli gate) او (double controlled-NOT gate ([CCX ](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md) 
+و نستخدم [بوابة توفولي](docfx_project\Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md)   (Toffoli gate) او (double controlled-NOT gate ([CCX ](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md) 
 على الكيوبت الاول و الثاني و ثلاث 
 ```
 ccx q[0], q[1], q[3];
