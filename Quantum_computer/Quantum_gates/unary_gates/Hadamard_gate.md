@@ -3,8 +3,8 @@
 وهي عبارة  بوابة أحادية الكيوبت  تقوم بإدخال الكيوبت  في الوضع الفائق(superposition) عن طريق القيام بعملية دوران حول المحور x بمقدار 90 درجة و حول المحور y بمقدار 180 درجة في كرة بلوخ
     
 
-- تمثيل ديراك
- <div align="center">
+تمثيل ديراك
+ <div align="right">
 
 $|0〉\rightarrow\frac{1}{\sqrt{2}}\ (|0〉+|1〉)$
 
@@ -25,7 +25,7 @@ $|0〉=H \begin{bmatrix}1\\0\end{bmatrix}\Rightarrow \frac{1}{\sqrt{2}}\begin{bm
 $|1〉=H \begin{bmatrix}0\\1\end{bmatrix}\Rightarrow \frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\\\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}=\frac{1}{\sqrt{2}}\begin{bmatrix}1\\-1\end{bmatrix}$
 </div>
 
-![Hadamard_Gate ex](~/images/Bloch_sphere_Hadamard.png)
+![Hadamard_Gate ex](~/images/hadamard.gif)
 
 
 

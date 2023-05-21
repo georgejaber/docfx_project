@@ -1,4 +1,5 @@
 ## بوابة النفي المتحكم controlled not (CNOT)
+---
 
 
 
@@ -16,7 +17,7 @@
 
 - تمثيل البوابة بمصفوفة 
 
- <div align="center">
+ <div align="right">
 
 $CNOT=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\\\end{bmatrix}$
 

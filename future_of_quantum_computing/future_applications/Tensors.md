@@ -28,7 +28,7 @@
 حيث Cij و i تشير الى الصف و j تشير الى العمود ل C=AB ![]
 
 
-<div align="center">
+<div align="right">
 
  $C_{ij}=\sum_{k}^{} A_{ik} B_{kj}$
  

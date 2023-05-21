@@ -7,7 +7,7 @@
 
 - ## معادلة الوضع الفائق
 
- <div align="center">
+ <div align="right">
 
 $|Ψ>= α|0>+β|1>$ 
 

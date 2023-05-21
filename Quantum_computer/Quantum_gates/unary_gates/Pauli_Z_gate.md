@@ -9,7 +9,7 @@
 ![Bloch_sphere_pauli_z](~/images/pauliz.gif)
 
 تمثيل ديراك
- <div align="center">
+ <div align="right">
 
 $|0〉\rightarrow|0〉$
 

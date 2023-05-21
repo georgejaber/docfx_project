@@ -15,7 +15,7 @@
  
 
 تمثيل ديراك
- <div align="center">
+ <div align="right">
 
 $|0〉\rightarrow|1〉$
 

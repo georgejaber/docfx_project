@@ -1,4 +1,5 @@
 ## بوابة المرحلة المضبوطة (controlled-phase-gate)
+---
 
 
 
@@ -9,8 +10,8 @@
 
 
 
-- تمثيل البوابة بمصفوفة 
- <div align="center">
+تمثيل البوابة بمصفوفة 
+ <div align="right">
 
 $Cphase=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&-1\\\end{bmatrix}$
 
