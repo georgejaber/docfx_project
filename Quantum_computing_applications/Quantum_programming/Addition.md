@@ -136,7 +136,7 @@ measure q[3] -> c[3];
 ![theoretical_result ](~/images/theoretical_result.png)
 
 
-###### النتيجة العملية
+###### النتيجة المرصودة عملياً
 
 ![practical_result ](~/images/practical_result.png)
 
