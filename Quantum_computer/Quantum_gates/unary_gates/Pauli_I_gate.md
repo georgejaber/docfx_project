@@ -39,3 +39,4 @@ $|1〉=\begin{bmatrix}0\\1\end{bmatrix}\Rightarrow I\begin{bmatrix}0\\1\end{bmat
 
 <!-- المصادر -->
 <!-- https://en.wikipedia.org/wiki/Quantum_logic_gate -->
+<!-- https://www.quantum-inspire.com/kbase/identity-gate/ -->
