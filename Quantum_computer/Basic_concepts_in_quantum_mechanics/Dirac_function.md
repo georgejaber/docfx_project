@@ -58,7 +58,7 @@ $∣ket〉$
 فمثلا 
 
 <div align="center">
- 
+
 $∣s〉=∣Down〉+∣Up〉$
 
 $∣s〉=∣←〉+∣→〉$
@@ -117,7 +117,7 @@ $=$ $x\begin{bmatrix}1\\0\\0\end{bmatrix}$ $+$  $y\begin{bmatrix}0\\1\\0\end{bma
 
  <div align="center">
  
-complex number = $ {\sqrt {-1}} $
+complex number = ${\sqrt{-1}}$
 
 و يمثل هذا المتجه في (complex_plane) 
 
