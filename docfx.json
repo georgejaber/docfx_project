@@ -64,7 +64,7 @@
       {
         "files": [
           "images/**",
-          "introduction/images/**"
+          "/docfx_project/introduction/images/**"
         ]
       }
     ],
