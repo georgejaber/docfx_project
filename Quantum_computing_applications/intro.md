@@ -40,7 +40,7 @@ graph TD
       F--> O[ OpenQASM ] 
 
 
-classDef blue fill:#123a93 ,stroke:#333,stroke-width:2px 
+classDef blue fill:#123a93 ,stroke:#333,stroke-width:2px  ,color : #ffffff
 
 class M,Z,V,E,F,C,Q,R,I,W,L,H,N,A,U,O blue
 
