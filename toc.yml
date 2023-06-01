@@ -4,16 +4,16 @@
         homepage: api/index.md
 
       - name: مقدمة
-        href: introduction/toc.yml
+        href: introduction/intro.md
 
       - name: الحاسوب الكمي
-        href: Quantum_computer/toc.yml
+        href: Quantum_computer/intro.md
 
       - name: تطبيقات الحوسبة الكمية 
-        href: Quantum_computing_applications/toc.yml
+        href: Quantum_computing_applications/intro.md
 
       - name: مستقبل الحاسوب الكمي
-        href: future_of_quantum_computing/toc.yml
+        href: future_of_quantum_computing/intro.md
 
 
 
