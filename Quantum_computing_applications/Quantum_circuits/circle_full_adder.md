@@ -17,8 +17,9 @@
 
 
 
-![full_adder_Quantum](~/images/full_adder_Quantum.png)
+<!-- ![full_adder_Quantum](~/images/full_adder_Quantum.png) -->
 
+![Full adder](~/images/FullAdderWithoutHadamard3.png)
 
 ![full_adder_Quantum](~/images/full_adder_Quantum2.png)
 
