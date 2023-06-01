@@ -63,7 +63,8 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "introduction/images/**.md"
         ]
       }
     ],
