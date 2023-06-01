@@ -59,4 +59,4 @@ measure q[0] -> c[0];        #Step 8
 
 
 
-https://quantum-computing.ibm.com/composer/files/32e8b13f8d6ae5b43340cb16dc590d7575965059cc800d2ef9d5b6c34afcd866
+[جرب هذه الدارة على موقع IBM ](https://quantum-computing.ibm.com/composer/files/new?initial=N4IgdghgtgpiBcICqYAuBLVAbGATABAMboBOhArpiADQgCOEAzlAiAPIAKAogHICKAQQDKAWXwAmAHQAGANwAdMOjCEs5XDHzz6MLOgBGARknLC2hWEWK6JGAHN8dANoBmALoXCth4VcerYCQAngAUAA7o%2BAD0%2BAAsAJSOTtIe%2BGnpGZlRUUKoMGH4hor6ECQk6DAkSSnUSYZutc7i-mAAFnUthAAeHY1OzbKZQ1k5eQUuxaXlldUNvUkDit2zffWDwxvZuflxiu3OKesbx%2BlbY-gArJNlFVUHc871fYsqPY8P-aknI9sFAOyKWBMci2BZufAAWgAfERPkcfucAGzpCCoPJodAAezA%2BFQrXQjHwBPwjCRWjAQMYIM070hMN8a02ox2AA5ATBgaD7nTYYcmb98CyaCANIwvOgwhhsawQABfIA)
