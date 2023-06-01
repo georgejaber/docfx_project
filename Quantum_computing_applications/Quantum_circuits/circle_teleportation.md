@@ -11,9 +11,6 @@ Quantum teleportation(الانتقال الأني  الكمي)
 ## برمجياً
 ويمكن تطبيق دائرة النقل برمجيا عبر هذا المخطط :
 
-![teleportation figure](~/images/teleportation2.png)
-
-
 ``` 
 OPENQASM 2.0
 include "qelib1.inc";
