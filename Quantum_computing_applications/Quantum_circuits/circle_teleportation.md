@@ -35,8 +35,3 @@ measure q[1] -> c[1];
 measure q[0] -> c[0];
 ```
 
-
-
-
-
-
