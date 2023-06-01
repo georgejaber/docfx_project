@@ -44,12 +44,15 @@ measure q[0] -> c[0];        #Step 8
 
 
 #### النتيجة النظرية:
+---
 ![TeleportationA](~/images/TeleportationB.png)
 
 #### النتيجة العملية:
+---
 ![TeleportationA](~/images/TeleportationC.png)
 
 ##### الجهاز المستخدم:
+---
 ![TeleportationA](~/images/TeleportationD.png)
 
 
