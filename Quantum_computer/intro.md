@@ -21,7 +21,6 @@ graph TD
      V-->N[التشابك الكمي]
 
     C --> E[ الكيوبت]
-
        E--> H[ تعريف الكيوبت ]
        E--> L[ كرة بلوخ]
        E--> W[ بناء الكيوبت ]
@@ -33,18 +32,10 @@ graph TD
       F--> Q[ البوابات المتعددة] 
 
 
-classDef blue fill:#123a93 ,stroke:#333,stroke-width:2px  ,color : #ffffff
+classDef blue fill:#123a93 ,stroke:#333,stroke-width:2px  ,color : #ffffff ,font-size: 100%
+
 
 class M,Z,V,E,F,C,Q,R,I,W,L,H,N,A blue
 
 
-
 ```  
-
-<!-- <style>
-  .cssClass > rect {
-    fill: #ff0000;
-    stroke: #ffff00;
-    stroke-width: 4px;
-  }
-</style> -->
