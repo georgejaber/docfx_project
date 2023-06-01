@@ -47,13 +47,16 @@ measure q[0] -> c[0];        #Step 8
 ---
 ![TeleportationA](~/images/TeleportationB.png)
 
+
 #### النتيجة العملية:
 ---
 ![TeleportationA](~/images/TeleportationC.png)
 
+
 ##### الجهاز المستخدم:
 ---
 ![TeleportationA](~/images/TeleportationD.png)
+
 
 
 https://quantum-computing.ibm.com/composer/files/32e8b13f8d6ae5b43340cb16dc590d7575965059cc800d2ef9d5b6c34afcd866
