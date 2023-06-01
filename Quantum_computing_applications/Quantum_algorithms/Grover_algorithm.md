@@ -8,7 +8,7 @@
 $O(n)= \sqrt{n}$
 </div>
 
-![Grover_algorithm_graph](~/images/Grover_algorithm_graph)
+![Grover_algorithm_graph](~/images/Grover_algorithm_graph.png)
 
 من ما شاهدناه في الرسم البياني في الصورة اعلاه فأننا نرى بوضوح الفرق الكبير بين المدة الزمنية 
  التي تستغرقها خوارزمية جروفر والتي تصل الى $O(n)= \sqrt{n}$
