@@ -1,6 +1,6 @@
   
   - name:  وصف الوحدة  
-    href: Quantum_computer/intro.md
+    href: intro.md
 
   - name: المفاهيم الاساسية في ميكانيكا الكم
     href: Basic_concepts_in_quantum_mechanics/toc.yml

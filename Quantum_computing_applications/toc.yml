@@ -1,6 +1,6 @@
 
   - name:  وصف الوحدة  
-    href: Quantum_programming/intro.md
+    href: intro.md
 
   - name: خوارزميات كمومية
     href: Quantum_algorithms/toc.yml
