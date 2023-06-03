@@ -180,7 +180,7 @@ $〈a| =\begin{bmatrix}a{1}-ib{1}&a{2}-ib{2}&a{3}-ib{3}\end{bmatrix}$
 
 
 
-[فيديو عن الوضوع](https://www.youtube.com/watch?v=DeNXZVJoja8)
+[فيديو عن الموضوع](https://www.youtube.com/watch?v=DeNXZVJoja8)
 
  
 
