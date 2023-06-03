@@ -1,7 +1,7 @@
 ## خوارزمية يوزا-دويتش (jozsa-deutch)
 
 هي أول خوارزمية كمومية طبقت على الحاسوب الكمي و
-هي خوارزمية كمية حتمية اقترحها ديفيد دويتش(Jozsa – Deutsch)
+هي خوارزمية كمية حتمية اقترحها [ديفيد دويتش(Jozsa – Deutsch)](https://quantum-computing.ibm.com/composer/docs/iqx/guide/deutsch-jozsa-algorithm)
  عام 1992 
 
 و في عام 1998 تم اجراء بعض التحسينات بواسطة 
