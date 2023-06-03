@@ -3,9 +3,6 @@
     homepage: api/index.md
 
 
-  - name:  المعرفة المطلوبة     
-    href: what_you_need.md
-
   - name:  لمحة تاريخية عن فيزياء الكم
     href: history_of_quantum_physics/toc.yml
 
