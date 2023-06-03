@@ -49,5 +49,6 @@ class M,Z,V,E,C,Q,R,I,W,L,H,N,A,S blue
 ```  
 
 
-[دالة ديراك](xref:Quantum_computer\Basic_concepts_in_quantum_mechanics\Dirac_function.md)
-[بوابة توفولي](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md)
+[ التحديات ](xref:future_of_quantum_computing\Challenges_and_hindrances\Challenges.md)
+
+[مسائل كمية متعددة الحدود محدودة الخطأ  ](xref:future_of_quantum_computing\future_applications\BQP.md)
