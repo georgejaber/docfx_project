@@ -26,7 +26,7 @@ graph TD
 
     C --> V[التحديات و العقبات    ] 
 
-    V--> Z[التحديات و العقبات ]
+    V--> Z[  [ التحديات ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/Challenges_and_hindrances/Challenges.html) ]
 
 
     C --> E[ تطبيقات مستقبلية]
@@ -50,4 +50,15 @@ class M,Z,V,E,C,Q,R,I,W,L,H,N,A,S blue
 
 
 [ التحديات ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/Challenges_and_hindrances/Challenges.html)
-[مسائل كمية متعددة الحدود محدودة الخطأ  ](xref:future_of_quantum_computing\future_applications\BQP.md)
+
+
+[مستقبل و مجالات الحوسبة الكمية  ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/future_applications/introduction.html)
+
+
+[مسائل كمية متعددة الحدود محدودة الخطأ  ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/future_applications/BQP.html)
+
+[تطبيقات الكم في الهندسة الكيميائي ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/Challenges_and_hindrances/Challenges.html)
+
+
+تطبيقات الكم في الجانب الاقتصادي 
+
