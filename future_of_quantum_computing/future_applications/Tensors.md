@@ -1,8 +1,9 @@
-# اتينسور(Tensors) 
+#اتينسور(Tensors) 
+
 
 اتينسور(Tensors) عبارة عن مصفوفات متعددة الأبعاد من الأرقام ويمكن تفسيرها على أنها تعميم للقياسات و المتجهات والمصفوفات
 و يمكنك وصف تينسور(Tensors) حسب رتبتها
-
+[[1]](https://en.wikipedia.org/wiki/Tensor#:~:text=In%20mathematics%2C%20a%20tensor%20is,scalars%2C%20and%20even%20other%20tensors.)
 
 
 الرتبة الصفرية هي الرتبة العددية

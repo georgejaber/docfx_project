@@ -7,10 +7,10 @@
 
 على سبيل المثال فقد
 أعلنت
-Goldman Sachs 
+[Goldman Sachs](https://www.goldmansachs.com)
 مؤخًرا أنه بإمكانه إدخال خوارزميات كمية لتسعير الادوات االمالية جاهزة للاستخدام العملي في الأسواق المالية خلال السنوات الخمس المقبلة 
 
-كما تتوقع شركة Honeywell
+كما تتوقع شركة [Honeywell](https://aerospace.honeywell.com/?utm_source=google&utm_medium=cpc&utm_campaign=23-aero-ww-branded_bespoke&utm_content=resp-en-lp&s_kwcid=AL!7892!3!648043936044!b!!g!!aerospace%20honeywell&gclid=CjwKCAjwyeujBhA5EiwA5WD7_SK7PbBHMQTx7qaHM6-xyXNzAmLErQabPR7-WEZJaYUPkpqsgWlGzxoCedAQAvD_BwE)
 أن يشكل الكم صناعة تبلغ قيمتها 1 تريليون دوالر في العقود المقبلة
 و عن نية مبادرة كوانتوم تكنولوجيز الرائدة في الاتحاد الاوروبي الاستثمار بمقدار مليار يورو على مدى 10 سنوات
 و تخطط ألمانيا استثمار ملياري يورو في تقنيات الكم في السنوات الخمس المقبلة ، وأعلنت الحكومة الفرنسية عن استراتيجية كمية
