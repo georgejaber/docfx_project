@@ -148,15 +148,9 @@ $ pq - qp = i h/2π $
 وأثبت أيضا بأن هذه الطرق الثلاث متكافئة لوصف ميكانيكا الكم     
 
 
+> [1] (https://www.youtube.com/watch?v=0tbyw5Kk3Z8&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I )
 
-<!-- المصادر  -->
+> [2] (https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3)
 
-<!-- https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3 -->
+> [3] (https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%AF%D8%A7%D9%84%D8%AA%D9%88%D9%86)
 
-<!-- https://www.youtube.com/watch?v=0tbyw5Kk3Z8&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I -->
-
-
-> [!المصادر]
-> [1] https://www.youtube.com/watch?v=0tbyw5Kk3Z8&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I 
-
-> [2] https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3
