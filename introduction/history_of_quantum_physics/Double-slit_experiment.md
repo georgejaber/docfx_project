@@ -1,7 +1,7 @@
+
 # تجربة الشق المزدوج [[1]](https://translate.google.com/?sl=auto&tl=ar&op=translate) [[2]](https://ar.wikipedia.org/wiki/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9_%D8%A7%D9%84%D8%B4%D9%82_%D8%A7%D9%84%D9%85%D8%B2%D8%AF%D9%88%D8%AC) 
 
 
----
 
 في ميكانيكا الكم يمكن للجسيمات أن تكون  موجات و جسيمات في نفس الوقت
 
