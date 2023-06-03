@@ -6,7 +6,7 @@
 
 
 #### اول ظهور لفكرة الذرة 
-[2] (https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3)
+[[2]](https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3)
 
 أول من اِقترَح مفهوم الذَّرة هو العالم والفيلسوف اليوناني ديموقريطوس ( Democritus ) حيث عرَّف الذَّرة على أنَّها وحدةٌ متجانسةٌ غير محسوسة ، غير متناهية العدد ، مُتناهية الصِّغر ، وَهي الجُزء الَّذي لََا يتجزَّأ من المادَّة ، أزليةٌ ومتحرِّكةٌ بذاتها وتتشابه الذَّرات مِن حَيْث طبيعة المادَّة وَعدَم قبولها القسمة ، لكنها تختَلِف مِن حيث الشَّكل والوَضع والتَّرتيب.
 
@@ -19,7 +19,7 @@
 ![الفيلسوف اليوناني ارسطو](~/images/Aristotle.jpg)
 
 #### تنامي فكرة الذرة 
-[3] (https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%AF%D8%A7%D9%84%D8%AA%D9%88%D9%86)
+[[3]](https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%AF%D8%A7%D9%84%D8%AA%D9%88%D9%86)
 
 إِلى أنْ جاء العالم الإِنجليزي جون دالتون ( John Dalton ) في الفترة مَا بَين القرنين الثَّامن والتَّاسع عشر ، وَقال إِنَّ المادَّة تتكوَّن من العديد من الجسيمات غير القابلة للتَّجزئة تسمَّى الذَّرات ، وأنَّ كلَّ ذرَّات العُنصر متشابهة وتتميَّز بنفس الخواص ( الحجم - الشَّكل - الكُتلة ) ، وَالتي تختلف من عُنصرٍ إِلى آخر . وَفي نفس الفترة ظَهر مجموعة من العلماء من أبرزهم أنطوان لافوازييه ( Antoine Lavoisier ) وأميديو أفوجادْرو ( Amedeo Avogadro ) وَغيرِهم اَلكثِير فبَدَأ مفهوم الذَّرة بِالوضوح أكثر إِلَّا أَنَّه بقي غامضًا ومحلًّا للِجَدل .
 
@@ -151,10 +151,10 @@ $ pq - qp = i h/2π $
 
 
 
-> [1] (https://www.youtube.com/watch?v=0tbyw5Kk3Z8&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I )https://www.youtube.com/watch?v=0tbyw5Kk3Z8&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I 
+[[1]](https://www.youtube.com/watch?v=0tbyw5Kk3Z8&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I )
 
-> [2] (https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3)https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3
+[[2]](https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3)
 
-> [3] (https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%AF%D8%A7%D9%84%D8%AA%D9%88%D9%86)https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%AF%D8%A7%D9%84%D8%AA%D9%88%D9%86
+[[3]](https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%AF%D8%A7%D9%84%D8%AA%D9%88%D9%86)
 
 
