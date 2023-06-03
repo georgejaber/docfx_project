@@ -173,6 +173,15 @@ $∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}$
 $〈a| =\begin{bmatrix}a{1}-ib{1}&a{2}-ib{2}&a{3}-ib{3}\end{bmatrix}$
 
 </div>
+
+#### بعض المصادر للتعلم 
+
+[ويكيبدا](https://ar.wikipedia.org/wiki/%D8%AA%D8%B1%D8%A7%D9%83%D8%A8_%D9%83%D9%85%D9%8A) 
+
+
+
+[فيديو عن الموضوع](https://www.youtube.com/watch?v=DeNXZVJoja8)
+
  
 
 <!-- المراجع  -->
