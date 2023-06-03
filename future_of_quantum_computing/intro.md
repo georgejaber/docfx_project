@@ -49,5 +49,6 @@ class M,Z,V,E,C,Q,R,I,W,L,H,N,A,S blue
 ```  
 
 
-[ التحديات ](Challenges_and_hindrances\Challenges.md)
+[ التحديات ](http://docfx_project/Challenges_and_hindrances\Challenges.md)
+
 [مسائل كمية متعددة الحدود محدودة الخطأ  ](xref:future_of_quantum_computing\future_applications\BQP.md)
