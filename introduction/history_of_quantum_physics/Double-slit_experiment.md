@@ -1,4 +1,4 @@
-# تجربة الشق المزدوج
+# تجربة الشق المزدوج [[1]](https://www.youtube.com/watch?v=n2td1lTYcbk) [[2]](https://www.youtube.com/watch?v=kOHMb1ZyYhg)
 ---
 
 في ميكانيكا الكم يمكن للجسيمات أن تكون  موجات و جسيمات في نفس الوقت
