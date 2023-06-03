@@ -42,4 +42,3 @@ class M,Z,V,E,F,C,Q,R,I,W,L,H,N,A blue
 
 
 
-[link_text](xref:uid_of_Quantum_computer\Basic_concepts_in_quantum_mechanics\Superposition.md)
