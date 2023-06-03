@@ -1,4 +1,4 @@
-# عجز الحوسبة الكلاسيكية
+# عجز الحوسبة الكلاسيكية [[1]](https://www.qmunity.tech/post/problems-that-only-quantum-computers-can-solve#:~:text=Quantum%20computers%20can%20solve%20NP,is%20prime%20belongs%20to%20P)
 ---
 
 في الحاسوب الكلاسيكي يتم تصنيف المسائل الحاسوبية إلى متعددة الحدود (polynomial) ومشكلات غير متعددة الحدود (Non polynomial) والاخيرة لا يمكن حلها في وقت متزايد ( polynomial time) باستخدام الحاسوب الكلاسيكي لكن اذا كان لدينا الحل فبامكاننا التأكد من صحته بسرعة باستخدام الحاسوب الكلاسيكي ( Verification is fast by the classical computer).
