@@ -9,5 +9,5 @@
 
 
 
-> [!Video https://youtu.be/vX0ep259BEM]
+> [!Video https://www.youtube.com/embed/vX0ep259BEM?controls=0]
 
