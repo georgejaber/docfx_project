@@ -49,6 +49,5 @@ class M,Z,V,E,C,Q,R,I,W,L,H,N,A,S blue
 ```  
 
 
-[ التحديات ](http://docfx_project/Challenges_and_hindrances\Challenges.md)
-
+[ التحديات ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/Challenges_and_hindrances/Challenges.html)
 [مسائل كمية متعددة الحدود محدودة الخطأ  ](xref:future_of_quantum_computing\future_applications\BQP.md)
