@@ -24,9 +24,11 @@ graph TD
 
     C{المواضيع} 
 
-    C --> V[التحديات و العقبات    ] 
+    C --> V[التحديات و العقبات ] 
 
-    V--> Z[  [ التحديات ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/Challenges_and_hindrances/Challenges.html) ]
+
+
+    V--> Z[التحديات]
 
 
     C --> E[ تطبيقات مستقبلية]
@@ -49,6 +51,8 @@ class M,Z,V,E,C,Q,R,I,W,L,H,N,A,S blue
 ```  
 
 
+<a href="subfolder/file2.html">التحديات</a>
+
 [ التحديات ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/Challenges_and_hindrances/Challenges.html)
 
 
@@ -60,3 +64,4 @@ class M,Z,V,E,C,Q,R,I,W,L,H,N,A,S blue
 [تطبيقات الكم في الهندسة الكيميائي ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/Challenges_and_hindrances/Challenges.html)
 
 
+[[ التحديات ](https://georgejaber.github.io/docfx_project/future_of_quantum_computing/Challenges_and_hindrances/Challenges.html)]: التحديات 
