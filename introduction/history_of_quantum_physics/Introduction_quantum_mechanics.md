@@ -155,3 +155,6 @@ $ pq - qp = i h/2π $
 
 <!-- https://www.youtube.com/watch?v=0tbyw5Kk3Z8&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I -->
 
+> [!NOTE]
+> https://www.youtube.com/watch?v=0tbyw5Kk3Z8&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I 
+> https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%85%D9%88%D9%82%D8%B1%D9%8A%D8%B7%D9%88%D8%B3
