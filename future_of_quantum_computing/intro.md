@@ -50,3 +50,4 @@ class M,Z,V,E,C,Q,R,I,W,L,H,N,A,S blue
 
 
 [دالة ديراك](xref:Quantum_computer\Basic_concepts_in_quantum_mechanics\Dirac_function.md)
+[بوابة توفولي](xref:Quantum_computer\Quantum_gates\ternary_gates\Toffoli_CCNOT.md)
