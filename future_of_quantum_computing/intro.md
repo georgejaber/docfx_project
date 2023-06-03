@@ -17,6 +17,7 @@
 
 ```mermaid
 
+
 graph TD
 
     A[  مستقبل الحاسوب الكمي] -->
@@ -25,9 +26,8 @@ graph TD
 
     C --> V[التحديات و العقبات    ] 
 
-    V--> Z[دالة ديراك]
-    V--> M[الوضع الفائق]
-     V-->N[التشابك الكمي]
+    V--> Z[التحديات و العقبات ]
+
 
     C --> E[ تطبيقات مستقبلية]
 
@@ -49,9 +49,4 @@ class M,Z,V,E,C,Q,R,I,W,L,H,N,A,S blue
 ```  
 
 
-[دالة ديراك](xref:uid_toQuantum_computer\Basic_concepts_in_quantum_mechanics\Dirac_function.md)
-
-<<<<<<< HEAD
-=======
-```  
->>>>>>> 8a7685b65afcd939d2a35e9b0d8960c6a7555a16
+[دالة ديراك](xref:Quantum_computer\Basic_concepts_in_quantum_mechanics\Dirac_function.md)
