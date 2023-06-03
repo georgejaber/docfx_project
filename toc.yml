@@ -3,8 +3,8 @@
         href: index.md
         homepage: api/index.md
 
-      - name: مقدمة
-       href: what_you_need.md
+      - name:  متطلب المعرفة السابقة
+        href: what_you_need.md
 
       - name: مقدمة
         href: introduction/toc.yml
