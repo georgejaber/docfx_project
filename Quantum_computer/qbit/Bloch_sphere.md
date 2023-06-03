@@ -1,4 +1,4 @@
-# كرة بلوخ (bloch sphere
+# كرة بلوخ (bloch sphere)[[1]](https://medium.com/quantum-untangled/quantum-states-and-the-bloch-sphere-9f3c0c445ea3)
 ---
 
 
@@ -50,5 +50,5 @@ $cos(\theta)∣0〉+e^{i\phi}sin(\theta)∣1〉$
  </div>                                                                                                    
 وبهذه الحالة يمكننا تمثيل أي نقطة على كرة بلوخ فقط بالمتغيرين 𝛉 و ∅ وبهذا أي حالة للكيوبت يمكن تمثيلها على هذه الكرة.
 
-![Bloch sphere](~/images/Bloch_sphere.png)
+![Bloch sphere](~/images/Bloch_sphere.png) [[2]](http://akyrillidis.github.io/notes/quant_post_7)
 
