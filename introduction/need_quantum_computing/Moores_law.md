@@ -1,7 +1,7 @@
-# قانون مور
+# قانون مور[[1]](https://www.qmunity.tech/post/problems-that-only-quantum-computers-can-solve#:~:text=Quantum%20computers%20can%20solve%20NP,is%20prime%20belongs%20to%20P)
 ---
 
-صاغ العالم غوردون مور(Gordon Moore) قانونًا يعرف بـ" قانون مور"(Moore's Law)،
+صاغ العالم [غوردون مور(Gordon Moore)](https://ar.wikipedia.org/wiki/%D8%BA%D9%88%D8%B1%D8%AF%D9%88%D9%86_%D9%85%D9%88%D8%B1) قانونًا يعرف بـ" قانون مور"(Moore's Law)،
 والذي ينص على أن "عدد الترانزستورات  على شرائح المعالجات(CPU) تتضاعف تقريباً كل عامين مع بقاء حجم الشريحة ثابتا". ، 
 
 
