@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>كرة بلوخ (bloch sphere)[1] </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="كرة بلوخ (bloch sphere)[1] ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computer/qbit/Bloch_sphere.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h1 id="كرة-بلوخ-bloch-sphere1">كرة بلوخ (bloch sphere)<a href="https://medium.com/quantum-untangled/quantum-states-and-the-bloch-sphere-9f3c0c445ea3">[1]</a></h1>
+
+<hr>
+<p>ما هي هذه الكرة ولماذا نستخدمها:</p>
+<p>.هي كرة نستخدمها لتمثيل حالة الكيوبت الواحد، أي متجه يمكن استخدامه لتمثيل حالة الكيوبت يمكن تمثيله على شكل نقطة على هذه الكرة، وعند استخدام أي بوابة من البوابات الكمومية يمكن تمثيلها بانعكاس أو استدارة لهذه الكرة.</p>
+<p>ولكن السؤال كيف يمكننا تمثيل متجه ثنائي الأبعاد على كرة ثلاثية الأبعاد؟</p>
+<ul>
+<li><h2 id="تمثيل-الكيوبت-على-كرة-بلوخ">تمثيل الكيوبت على كرة بلوخ</h2>
+</li>
+</ul>
+<p>بالرجوع إلى الوراء، اننا نعلم ان يمكن تمثيل حالة الكيوبت بهذا
+المتجه</p>
+ <div align="right">
+<p><span class="math">\(\begin{bmatrix}\alpha\\\beta\end{bmatrix}\)</span></p>
+</div>
+<p>ومن هذه المعادلة لا يوجد قيود بأن نمثل الكيوبت فقط بأرقام بين الصفر والواحد  بل يمكننا استخدام الأعداد السالبة والأعداد المركبة.
+باستخدام الأعداد المركبة يمكننا تمثيل حالة الكيوبت بهذا
+المتجه</p>
+ <div align="right">
+<p><span class="math">\(\begin{bmatrix}a_{1}+ib_{1}\\a_{2}+ib_{2}\end{bmatrix}\)</span></p>
+</div>
+<p>وبهذه الحالة فاننا نحتاج الى اربع متغيرات لكي نمثل حالة الكيوبت، فكيف يمكننا تمثيل هذه الحالة على كرة بلوخ ؟
+يمكننا ذلك لأن الحالة العامة (global phase) لا تؤثر على حالة الكيوبت.<!-- 3 --></p>
+ <div align="right">
+<p><span class="math">\(\begin{bmatrix}1\\-1\end{bmatrix}=-1\begin{bmatrix}-1\\1\end{bmatrix}\rightarrow\begin{bmatrix}1\\-1\end{bmatrix}=\begin{bmatrix}-1\\1\end{bmatrix}\)</span></p>
+</div>
+<p>ويمكن تمثيل حالة الكيوبت بهذه المعادلة
+<span class="math">\(cos(\theta)∣0〉+sin(\theta)∣1〉\)</span>
+وهكذا يمكننا تمثيل حالة الكيوبت فقط بتغيير 𝛉 ولكن ينقصنا شيء آخر لتمثيل أي حالة ممكنة للكيوبت, أن ندعم المعادلة السابقة بهوية أويلر(Euler's identity) و بازالة الحالة العامة وتمثيل <span class="math">\(e^{i\phi_{2}-i\phi_{1}}\)</span></p>
+ <div align="right">
+<p>بهذه الصورة  <span class="math">\(e^{i\phi }\)</span> فهكذا تصبح المعادلة :
+<span class="math">\(cos(\theta)∣0〉+e^{i\phi}sin(\theta)∣1〉\)</span></p>
+ </div>                                                                                                    
+وبهذه الحالة يمكننا تمثيل أي نقطة على كرة بلوخ فقط بالمتغيرين 𝛉 و ∅ وبهذا أي حالة للكيوبت يمكن تمثيلها على هذه الكرة.
+<p><img src="../../images/Bloch_sphere.png" alt="Bloch sphere"> <a href="http://akyrillidis.github.io/notes/quant_post_7">[2]</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computer/qbit/Bloch_sphere.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

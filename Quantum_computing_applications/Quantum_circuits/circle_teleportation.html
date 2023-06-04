@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>دائرة التنقل (teleportation) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="دائرة التنقل (teleportation) ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_circuits/circle_teleportation.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h2 id="دائرة-التنقل-teleportation">دائرة التنقل (teleportation)</h2>
+
+<p>Quantum teleportation(الانتقال الأني  الكمي)
+في الحقيقة الانتقال الاني الكمي لا ينقل البتات الكمية ولكنه ينقل حالتها او قيمتها الى البت الاخر.
+يحصل ذلك عن طريق ربط الكيوبت الأول في كيو بت اخر وإجراء عملية فحص مزدوجة عليهما (Combined measurement) كما اسماها بيل : إذا كانا الكيوبتان A, B متشابكان كميا وقمنا بربط A مع كيو بت ثالث واسميناه C ثم أجرينا عملية فحص مزدوجة على A, C فستنتقل قيمة C إلى B عن طريق A
+لكن، اذا كان الكيوبتان C,A بعيدان جدا عن A كيف يمكننا إرسال رسالة بان عملية النقل تمت وما هي طريقة القياس ؟
+يمكن فعل ذلك عن طريق قناة نقل كلاسيكية (ألياف ضوئية مثلا) تنقل 2 بت كلاسيكي فقط كما في الشكل التالي :</p>
+<p><img src="../../images/teleportation1.png" alt="teleportation figure"></p>
+<h2 id="برمجيا">برمجياً</h2>
+<p>ويمكن تطبيق دائرة النقل برمجيا عبر هذا المخطط :</p>
+<pre><code>OPENQASM 2.0
+include &quot;qelib1.inc&quot;;
+gate nG0 ( param ) q  {
+  h q;
+}
+
+qreg q[3];
+creg c[3];
+
+ry(pi/4) q[0];
+barrier q[0],q[1],q[2];
+h q[1];
+cx q[1],q[2];
+barrier q[0],q[1],q[2];
+cx q[0],q[1];
+h q[0];
+barrier q[0],q[1],q[2];
+cx q[1],q[2];
+measure q[2] -&gt; c[2];
+measure q[1] -&gt; c[1];
+measure q[0] -&gt; c[0];
+</code></pre>
+<p><a href="https://quantum-computing.ibm.com/lab/docs/iql/manage/systems/dynamic-circuits/Teleportation">Refrence</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_circuits/circle_teleportation.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

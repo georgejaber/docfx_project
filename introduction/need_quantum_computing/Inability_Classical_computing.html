@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>عجز الحوسبة الكلاسيكية [1] </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="عجز الحوسبة الكلاسيكية [1] ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/introduction/need_quantum_computing/Inability_Classical_computing.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h1 id="عجز-الحوسبة-الكلاسيكية-1">عجز الحوسبة الكلاسيكية <a href="https://www.qmunity.tech/post/problems-that-only-quantum-computers-can-solve#:%7E:text=Quantum%20computers%20can%20solve%20NP,is%20prime%20belongs%20to%20P">[1]</a></h1>
+
+<hr>
+<p>في الحاسوب الكلاسيكي يتم تصنيف المسائل الحاسوبية إلى متعددة الحدود (polynomial) ومشكلات غير متعددة الحدود (Non polynomial) والاخيرة لا يمكن حلها في وقت متزايد ( polynomial time) باستخدام الحاسوب الكلاسيكي لكن اذا كان لدينا الحل فبامكاننا التأكد من صحته بسرعة باستخدام الحاسوب الكلاسيكي ( Verification is fast by the classical computer).</p>
+<p>في العام 1993 قام العالمان إيثان برنشتاين(Ethan S Bernstein) وأوميش فازيراني <!--بحاجة الى اسم العالم باللغة الانجليزية --> باستحداث تصنيف جديد للمسائل الحاسوبية وهو مسائل كمية متعددة الحدود محدودة الخطأ“bounded-error quantum polynomial time&quot; اختصارا (ك.م.ا.م) BQP  وتمكنوا من إثبات بأن جميع المسائل  متعددة الحدود (polynomial) هي عبارة عن مجموعة جزئية من ال (ك.م.ا.م) BQP وبالتالي بان الحاسوب الكمي بإمكانه حل جميع المسائل التي يتمكن منها الحاسوب الكلاسيكي.</p>
+<p>لاحقا قاموا بتعريف تصنيف جديد وهو التسلسل الهرمي متعدد الحدود (Polynomial Hierarchy) وهو تعميم لمجموعة  المشكلات غير متعددة الحدود (Non polynomial) باضافة المزيد من التعقيد أو الشروط على المسألة.</p>
+<p>لاحقا اكشتف العلماء مسألة موجودة في مجموعة ال(ك.م.ا.م) BQP وليست موجودة في مجموعة  التسلسل الهرمي الصعبة متعددة الحدود(PH) مما يثبت بأنه إذا كانت الحواسيب الكلاسيكية قادرة على حل جميع المسائل غير متعددة الحدود(Non polynomial)  فإنه الحواسيب الكمية ستبقى أمامها ومتفوقة عليها في العثور على مسألة في مجموعة  (ك.م.ا.م) BQP وليست موجودة في مجموعة المسائل الهرمية متعددة الحدود (PH) مما يثبت بأن الحواسيب الكمية تتفوق على الحواسيب الكلاسيكية عندما نتحدث عن قدرة الحوسبة. [7].</p>
+<p><img src="../../images/NP_Problem.png" alt="NP_Problem"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/introduction/need_quantum_computing/Inability_Classical_computing.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

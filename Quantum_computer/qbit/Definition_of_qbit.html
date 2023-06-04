@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>تعريف الكيوبت </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="تعريف الكيوبت ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computer/qbit/Definition_of_qbit.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h1 id="تعريف-الكيوبت">تعريف الكيوبت</h1>
+
+<hr>
+<p>الكيوبت هي وحدة المعلومات الأساسية في الحواسيب الكمومية المرادفة للبت المُستخدَم في الحواسيب الكلاسيكية، يمكن للبت الكلاسيكي أن يكون في حالة واحدة فقط من بين حالتين(0،1). في حين تسمح ميكانيكا الكم للكيوبت أن يكون في كلا الحالتين في نفس اللحظة ويطلق على هذه الحالة بالوضع الفائق (superposition).
+<a href="https://en.wikipedia.org/wiki/Qubit">[1]</a></p>
+<p><img src="../../images/QBit.png" alt="Qbit "></p>
+<h2 id="مقارنة-بين-البتbit-و-الكيوبتqbit">مقارنة بين البت(bit) و الكيوبت(َQbit)</h2>
+<hr>
+<p>يتم تمثيل البت <span class="math">\(bit\)</span> عن طريق نبضة كهربائية إما موجبة أو سالبة، أو ويمكن تمثيل الأمر على شكل مفتاح كهربائي إما مفتوح أو مغلق، ويرمز لها بأحد الرقمين: <span class="math">\(0\)</span> أو <span class="math">\(1\)</span>. اما في حالة الكيوبت <span class="math">\(Qbit\)</span> فهو عبارة عن قيمة <span class="math">\(Spin\)</span> وهي حالة فيزيائية للاجسام الدون ذرية مثل الالكترون وتكون اما للاعلى <span class="math">\(↑\)</span> او للاسفل <span class="math">\(↓\)</span> او كلاهما معا.</p>
+<p>في البت <span class="math">\(bit\)</span> الكلاسيكي البت يمثل احدى احتمالين اما ان يكون صفر او واحد (1،0). أما الكيوبت <span class="math">\(Qbit\)</span> فمن الممكن فيمثل صفر او واحد او صفر و واحد او حالة مركبة بينهما (بين ال 0 وال 1) ويطلق على الاحتمال الاخير الوضع الفائق <span class="math">\((superposition)\)</span> .</p>
+<p><img src="../../images/bit_vs_Qbit.jpeg" alt="Qbit vs bit "></p>
+<p>و اذا ضاعفت العدد في البت <span class="math">\(bit\)</span> العادي فأنك ستحصل على 4 احتمالات</p>
+ <div align="right">
+<p><span class="math">\((0,0)\)</span>
+<span class="math">\((0,1)\)</span>
+<span class="math">\((1,0)\)</span>
+<span class="math">\((1,1)\)</span></p>
+</div>
+<p>اما في الكيوبت <span class="math">\(Qbit\)</span> فيمكن ان تكون في جميع الحالات في نفس الوقت</p>
+ <div align="right">
+<p><span class="math">\((&lt;00| ,&lt;01| ,&lt;10| ,&lt;11|)\)</span></p>
+ </div>
+<p>بشرط ان تكون جميعها في حالة تشابك(Entanglement) وفي حالة وضع فائق (Superposition)</p>
+ <div align="right">
+<p><span class="math">\(|ψ&gt; = α|00&gt; + β|01&gt; + γ|10&gt; + δ|11&gt;\)</span></p>
+</div>
+<p>الوضع الفائق:ψ</p>
+<p>ه probability amplitude (P.A):  α , β , γ , δ :وهو رقم مركب يستخدم لوصف سلوك نظام في ميكانيكا الكم.</p>
+<p>ويمكن حساب احتمال وجود النظام الكمي في احدى الحالات عن طريق مربع P.A لتلك الحالة بحيث يكون مجموع جميع الإحتمالت يساوي 1</p>
+  <div align="right">
+<p><span class="math">\(|α|^2 + |β|^2 + |γ|^2 + |δ|^2 =1\)</span></p>
+ </div>
+ <packagereference include="Microsoft.DocAsCode.App" version="2.60.0"></packagereference>
+ 
+<h2 id="ملحق">ملحق:</h2>
+<hr>
+<p>ساي:ψ</p>
+<p>&lt;  |  : ترميز bra-ket ، أو ترميز Dirac</p>
+<p>الفا:α</p>
+<p>بيتا:β</p>
+<p>جاما:γ</p>
+<p>ديلتا:δ</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computer/qbit/Definition_of_qbit.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

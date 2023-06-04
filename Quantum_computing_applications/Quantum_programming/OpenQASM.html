@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Open Quantum Assembly Language(OpenQASM) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Open Quantum Assembly Language(OpenQASM) ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_programming/OpenQASM.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h1 id="open-quantum-assembly-languageopenqasm">Open Quantum Assembly Language(OpenQASM)</h1>
+
+<hr>
+<p>لغة تستخدم لإجراء تجارب على دوائر كمومية بسيطة , تمثل (openQASM) الدوائر الفيزيائية باستخدام بوابة CNOT  و SU(2) مع كود(straight-line code) يتضمن جميع القياسات , ومهام البوابات الفرعية, يمكن كتابة هذه اللغة البسيطة باستخدام أدوات عالة المستوى او منصة أي بي ام (IBM Q Experience).</p>
+<p>openQASM 2.0: يُعد OpenQASM 2.0 إصدارًا محدثًا هذه ويشتمل على عدة ميزات وتحسينات جديدة على الإصدار الأصلي, وذلك يتضمن دعمًا لعمليات بوابات الكم الجديدة، بما في ذلك الإصدارات المتحكمة من بوابات T و S و X., وكذلك يقدم دعمًا للبوابات المخصصة ومكتبات البوابات، مما يسهل إعادة استخدام الكود عبر البرامج المختلفة.</p>
+<h2 id="مثال-على-اخر-اصدار-من-اللغة-openqasm-30">مثال على اخر اصدار من اللغة (openQASM 3.0)</h2>
+<hr>
+<pre><code> 
+/*
+ * Repeat-until-success circuit for Rz(theta),
+ * cos(theta-pi)=3/5, from Nielsen and Chuang, Chapter 4.
+ */
+OPENQASM 3;
+include &quot;stdgates.inc&quot;;
+
+/*
+ * Applies identity if out is 01, 10, or 11 and a Z-rotation by
+ * theta + pi where cos(theta)=3/5 if out is 00.
+ * The 00 outcome occurs with probability 5/8.
+ */
+def segment qubit[2] anc, qubit psi -&gt; bit[2] {
+  bit[2] b;
+  reset anc;
+  h anc;
+  ccx anc[0], anc[1], psi;
+  s psi;
+  ccx anc[0], anc[1], psi;
+  z psi;
+  h anc;
+  measure anc -&gt; b;
+  return b;
+}
+
+qubit input;
+qubit[2] ancilla;
+bit[2] flags = &quot;11&quot;;
+bit output;
+
+reset input;
+h input;
+
+// braces are optional in this case
+while(int(flags) != 0) {
+  flags = segment ancilla, input;
+}
+rz(pi - arccos(3 / 5)) input;
+h input;
+output = measure input;  // should get zero
+
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_programming/OpenQASM.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

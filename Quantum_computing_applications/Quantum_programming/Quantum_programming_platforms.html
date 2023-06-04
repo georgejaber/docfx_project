@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>منصات / مكتبات الحوسبة الكمومية </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="منصات / مكتبات الحوسبة الكمومية ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_programming/Quantum_programming_platforms.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h1 id="منصات--مكتبات-الحوسبة-الكمومية">منصات / مكتبات الحوسبة الكمومية</h1>
+
+<hr>
+<p>مع الإهتمام المتزايد بالحوسبة الكمومية ، هناك زيادة في عدد المكتبات وأدوات التطوير لهذا المجال. هناك بيئات عمل ومنصات محاكاة للدوائر الكمومية في أغلب لغات البرمجة الشهيرة مثل
+Python, C/C++, Java</p>
+<p>أغلب مراكز البحث ركزت على لغة python كلغة أساسية في البرمجة الكمومية , وذلك لسهولة التعامل معها</p>
+<p><img src="../../images/architecture_quantum_computer.png" alt="architecture_quantum_computer"></p>
+<p>الرسم تخطيطي لبنية مكدس الحوسبة الكمومية, والتي تتراوح بين الخوارزميات والتطبيقات الكمومية (Quantum Algorithms) على أعلى مستوى, إلى المعالجات الفيزيائية الكمومية
+(Physical Quantum Processor) في أدنى مستوى</p>
+<p>تقع العديد من المكونات بين هذه الطبقات مثل التحكم والقراءة و- في المستقبل - وحدات تصحيح الخطأ الكمومي.
+لغات البرمجة الكمومية  Quantum programming languages(QPL)تتعامل مع المستوى الأعلى من المكدس , تتكون اللغة الكمومية من تعليمات منخفضة المستوى(low-level instructions) تشير إلى البوابات التي يجب أن تعمل على أي كيوبت.ولصعوبة التعامل مع هذه التعليمات منخفضة
+المستوى فإننا نستخدم لغات البرمجة المتقدمة مع استعمال مكتبات كمومية</p>
+<p>وأمثلة على هذه المكتبات أو المنصات</p>
+<ul>
+<li><h2 id="cirq">Cirq</h2>
+</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Google</th>
+<th>المؤسسة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v0.1 on April 17, 2018</td>
+<td>تاريخ الاصدار</td>
+</tr>
+<tr>
+<td>Yes</td>
+<td>مفتوح المصدر؟</td>
+</tr>
+<tr>
+<td><a href="https://cirq.readthedocs.io/en/stable/">cirq</a></td>
+<td>التوثيق</td>
+</tr>
+<tr>
+<td>Mac, Windows, Linux</td>
+<td>نظام التشغيل</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>لغة البرمجة</td>
+</tr>
+</tbody>
+</table>
+<pre><code>&quot;&quot;&quot;Simple program in Cirq.&quot;&quot;&quot;
+# Import the Cirq package
+import cirq
+# Pick a qubit
+qubit = cirq.GridQubit(0, 0)
+# Create a circuit
+circuit = cirq.Circuit(
+cirq.X(qubit), # NOT.
+cirq.measure(qubit, key=’m’) # Measurement
+)
+# Display the circuit
+print(&quot;Circuit:&quot;)
+print(circuit)
+# Get a simulator to execute the circuit
+simulator = cirq.Simulator()
+# Simulate the circuit several times
+result = simulator.run(circuit, repetitions=10)
+# Print the results
+print(&quot;Results:&quot;)
+print(result)
+</code></pre>
+<ul>
+<li><h2 id="qiskit">Qiskit</h2>
+</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th>IBM</th>
+<th>المؤسسة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.1 on March 7, 2017</td>
+<td>تاريخ الاصدار</td>
+</tr>
+<tr>
+<td>Yes</td>
+<td>مفتوح المصدر؟</td>
+</tr>
+<tr>
+<td><a href="https://qiskit.org/documentation/">qiskit</a></td>
+<td>التوثيق</td>
+</tr>
+<tr>
+<td>Mac, Windows, Linux</td>
+<td>نظام التشغيل</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>لغة البرمجة</td>
+</tr>
+<tr>
+<td>OpenQASM</td>
+<td>اللغة الكمومية</td>
+</tr>
+</tbody>
+</table>
+<pre><code>&quot;&quot;&quot;Simple program in Qiskit.&quot;&quot;&quot;
+# Import the Qiskit package
+import qiskit
+# Create a quantum register with one qubit
+qreg = qiskit.QuantumRegister(1, name=’qreg’)
+# Create a classical register with one qubit
+creg = qiskit.ClassicalRegister(1, name=’creg’)
+
+
+
+# Create a quantum circuit with the above registers
+circ = qiskit.QuantumCircuit(qreg, creg)
+# Add a NOT operation on the qubit
+circ.x(qreg[0])
+# Add a measurement on the qubit
+circ.measure(qreg, creg)
+# Print the circuit
+print(circ.draw())
+# Get a backend to run on
+backend = qiskit.BasicAer.get_backend(&quot;qasm_simulator&quot;)
+# Execute the circuit on the backend and get the measurement results
+job = qiskit.execute(circ, backend, shots=10)
+result = job.result()
+# Print the measurement results
+print(result.get_counts())
+</code></pre>
+<ul>
+<li><h2 id="forest">Forest</h2>
+</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Rigetti</th>
+<th>المؤسسة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v0.0.2 on Jan 15, 2017</td>
+<td>تاريخ الاصدار</td>
+</tr>
+<tr>
+<td>Yes</td>
+<td>مفتوح المصدر؟</td>
+</tr>
+<tr>
+<td><a href="%5Bpyquil.readthedocs.io/en/latest/%5D(https://www.rigetti.com/forest)">Link</a></td>
+<td>التوثيق</td>
+</tr>
+<tr>
+<td>Mac, Windows, Linux</td>
+<td>نظام التشغيل</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>لغة البرمجة</td>
+</tr>
+<tr>
+<td>Quil</td>
+<td>اللغة الكمومية</td>
+</tr>
+</tbody>
+</table>
+<pre><code>&quot;&quot;&quot;Simple program in pyQuil.&quot;&quot;&quot;
+# Import the pyQuil library
+import pyquil
+# Create a quantum program
+prog = pyquil.Program()
+# Declare a classical register
+creg = prog.declare(&quot;ro&quot;, memory_type=&quot;BIT&quot;, memory_size=1)
+# Add a NOT operation and measurement on a qubit
+prog += [
+pyquil.gates.X(0),
+pyquil.gates.MEASURE(0, creg[0])
+]
+# Print the program
+print(&quot;Program:&quot;)
+print(prog)
+# Get a quantum computer to run on
+computer = pyquil.get_qc(&quot;1q-qvm&quot;)
+# Simulate the program many times
+prog.wrap_in_numshots_loop(10)
+# Execute the program on the computer. NOTE: This requires the QVM
+to be running
+result = computer.run(prog)
+# Print the results
+print(result)
+</code></pre>
+<ul>
+<li><h2 id="quantum-development-kit">Quantum Development Kit</h2>
+</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th>Microsoft</th>
+<th>المؤسسة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.1.1712.901 on Jan 4, 2018</td>
+<td>تاريخ الاصدار</td>
+</tr>
+<tr>
+<td>Yes</td>
+<td>مفتوح المصدر؟</td>
+</tr>
+<tr>
+<td><a href="microsoft.com/en-us/quantum/development-kit">Link</a></td>
+<td>التوثيق</td>
+</tr>
+<tr>
+<td>Mac, Windows, Linux</td>
+<td>نظام التشغيل</td>
+</tr>
+<tr>
+<td>Q#</td>
+<td>اللغة الكمومية</td>
+</tr>
+</tbody>
+</table>
+<pre><code>namespace Quantum.Simple
+{
+// Importing the libraries
+open Microsoft.Quantum.Primitive;
+open Microsoft.Quantum.Canon;
+// Sets a qubit in a desired state
+operation Set(desired_state: Result, qubit: Qubit) : Unit {
+let current = M(qubit);
+if (current != desired_state) {
+X(qubit);
+}
+}
+// Executes the NOTandMeasure circuit for an input number
+// of repetitions and returns the number of ones measured
+operation NotAndMeasure(repetitions: Int) : Int {
+// Variable to store the number of measured ones
+mutable num_ones = 0;
+
+SECTION 6.5 Quantum Development Kit 79
+
+// Get a qubit to use
+using (qubit = Qubit()) {
+// Loop over the desired number of repetitions
+for (test in 1..repetitions) {
+// Get a qubit in the zero state
+Set(Zero, qubit);
+// Perform a NOT operation
+X(qubit);
+// Measure the qubit
+let res = M (qubit);
+// Keep track of the number of ones we measured
+if (res == One) {
+set num_ones = num_ones + 1;
+}
+}
+// &quot;Released qubits&quot; must be in the zero state to avoid a
+System.AggregateException
+Set(Zero, qubit);
+}
+// Return the number of ones measured
+return num_ones;
+}
+}
+</code></pre>
+<p>المصادر:
+Jack D. Hidary - Quantum Computing_ An Applied Approach-Springer (2021).
+<a href="https://www.nature.com/articles/s41534-016-0004-0">https://www.nature.com/articles/s41534-016-0004-0</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_programming/Quantum_programming_platforms.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

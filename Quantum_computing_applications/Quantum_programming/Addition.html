@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>دارة الجمع (Full Adder) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="دارة الجمع (Full Adder) ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_programming/Addition.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h2 id="دارة-الجمع-full-adder">دارة الجمع (Full Adder)</h2>
+
+<hr>
+<p>هناك أنواع مختلفة من دوائر الجمع الثنائية مثل دائرة الجمع النصفي
+half adder ، و دائرة الجمع الكاملة full adder</p>
+<!-- هنا يوجد Herfs يجب اضافتها -->
+<h2 id="برمجيا">برمجياً</h2>
+<hr>
+<p>يمكن بناء دائرة الجمع الكامل في الحاسوب الكمي بأستخدام بعض البوابات الكمية كما سنوضح في المثال التالي  .</p>
+<p><img src="../../images/FullAdderWithoutHadamard3.png" alt="Full adder"></p>
+<pre><code>OPENQASM 2.0;
+include &quot;qelib1.inc&quot;;
+
+//تعريف مسجل كمومي مكون من 4 كيوبت
+qreg q[4];
+
+//تعريف مسجل كلاسيكي من 4 بتات
+//من اجل حفظ المخررجات
+creg c[4];
+
+//المدخلات
+x q[0]; //وضع المدخل الاول في حالة ال 1
+reset q[1]; //وضع المدخل الثاني في حالة ال 0
+barrier q[0], q[1], q[2], q[3];
+
+//دائرة الجمع
+ccx q[0], q[1], q[3];
+cx q[0], q[1];
+ccx q[1], q[2], q[3];
+cx q[1], q[2];
+cx q[0], q[1];
+
+barrier q[0], q[1], q[2], q[3];
+
+القياس
+measure q[0] -&gt; c[0];
+
+measure q[1] -&gt; c[1];
+
+measure q[2] -&gt; c[2];
+
+measure q[3] -&gt; c[3];
+
+</code></pre>
+<ul>
+<li><h5 id="الخطوة-الاولى--التعريف">الخطوة الاولى  (التعريف)</h5>
+</li>
+</ul>
+<p>تعريف مسجل كمومي مكون من 4 كيوبت</p>
+<pre><code>qreg q[4];
+</code></pre>
+<p>تعريف مسجل كلاسيكي من 4 بتات
+من اجل حفظ المخررجات</p>
+<pre><code>creg c[4];
+</code></pre>
+<ul>
+<li><h5 id="الخطوة-الثانية-المدخلات">الخطوة الثانية (المدخلات)</h5>
+</li>
+</ul>
+<p>وضع المدخل الاول(الكيوبت) في حالة ال 1</p>
+<pre><code>x q[0];
+</code></pre>
+<p>وضع المدخل الثاني(الكيوبت) في حالة ال 0</p>
+<pre><code>reset q[1]; 
+</code></pre>
+<ul>
+<li><h5 id="الخطوة-الثالثة--بناء-دائرة-الجمع">الخطوة الثالثة  (بناء دائرة الجمع)</h5>
+</li>
+</ul>
+<p>و نستخدم <a href="docfx_project%5CQuantum_computer%5CQuantum_gates%5Cternary_gates%5CToffoli_CCNOT.md">بوابة توفولي</a>   (Toffoli gate) او (double controlled-NOT gate (<a href="xref:Quantum_computer%5CQuantum_gates%5Cternary_gates%5CToffoli_CCNOT.md">CCX </a>
+على الكيوبت الاول و الثاني و ثلاث</p>
+<pre><code>ccx q[0], q[1], q[3];
+</code></pre>
+<p>في هذه الخطوة نقوم بأضافة بوابة النفي المتحكم <a href="xref:uid_toQuantum_computer%5CQuantum_gates%5Cbinary_gates%5CCNOT_gate.md">CX</a>
+بين الكيوبت  الاول و الكيوبت الثاني</p>
+<pre><code>cx q[0], q[1];
+</code></pre>
+<p>و نستخدم <a href="xref:Quantum_computer%5CQuantum_gates%5Cternary_gates%5CToffoli_CCNOT.md">بوابة توفولي</a>
+(Toffoli gate) او (double controlled-NOT gate (<a href="xref:Quantum_computer%5CQuantum_gates%5Cternary_gates%5CToffoli_CCNOT.md">CCX</a>
+على الكيوبت الثاني و الثالث و الرابع</p>
+<pre><code>ccx q[1], q[2], q[3];
+</code></pre>
+<p>نقوم ايضا في هذه المرحلة باستخدام بوابة <a href="xref:uid_toQuantum_computer%5CQuantum_gates%5Cbinary_gates%5CCNOT_gate.md">CX</a> والتي تقوم بعملية نفي بين الكيوبت الثاني و الثالث</p>
+<pre><code>cx q[1], q[2];
+</code></pre>
+<p>نقوم ايضا في هذه المرحلة باستخدام بوابة <a href="xref:uid_toQuantum_computer%5CQuantum_gates%5Cbinary_gates%5CCNOT_gate.md">CX</a> والتي تقوم بعملية نفي بين الكيوبت الاول و الثاني</p>
+<pre><code>cx q[0], q[1];
+</code></pre>
+<h5 id="الخطوة-الرابعة-القياس">الخطوة الرابعة (القياس)</h5>
+<p>تقوم بقياس قيمة الكيوبت و تخزينها في البت الكلاسيكي المقابل</p>
+<pre><code>measure q[0] -&gt; c[0];
+
+measure q[1] -&gt; c[1];
+
+measure q[2] -&gt; c[2];
+
+measure q[3] -&gt; c[3];
+</code></pre>
+<h5 id="النتائج">النتائج</h5>
+<h6 id="النتيجة-المتوقعة-نظريا">النتيجة المتوقعة نظرياً</h6>
+<p><img src="../../images/theoretical_result.png" alt="theoretical_result "></p>
+<h6 id="النتيجة-المرصودة-عمليا">النتيجة المرصودة عملياً</h6>
+<p><img src="../../images/practical_result.png" alt="practical_result "></p>
+<h6 id="الحاسوب-الكمي-المستخدم-في-التجربة">الحاسوب الكمي المستخدم في التجربة</h6>
+<p><img src="../../images/device_specifications.png" alt="device_specifications "></p>
+<p><a href="https://quantum-computing.ibm.com/composer/files/new?initial=N4IgdghgtgpiBcICqYAuBLVAbGATABAMboBOhArpiADQgCOEAzlAiAPIAKAogHICKAQQDKAWXwAmAHQAGANwAdMOjCEs5XDHzz6MLOgBGARknLC2hWEUB6K4CowQJxggRjBAUmCBBMHyBRMEDMYIBowQCJg%2BIDCYB6AEmAezp6BIYBiYJ6xACxBziGAFGC2inQkMADm%2BHQA2vEAuhbWdk5unr4BgX6A5GBezoERHgn4aXXpYDat%2BHX%2B%2BIC0YK6AHGB9fh6AdGCOjj6dioRZuYSFJYpldROA9GCT9V0AHnn50iX4NiGAbGD24x47AZt1IQGuEYObgJRg4-iGilmMMKgjoZTucrjc7uNANRgdWiEReQw%2BX2k60sYH0EBIJHQMBIRxO1CBRQJBXERKOAGY1qibFs6oAyMEcn02Pg89gWhEOBXxhOJ%2BUpFg5eLJBWBAsFIuF%2BVJvP5C05%2BWBvNJAvl3IlpTRGKxOKFvMVR2lFKpGz8gCEwZwNRSwJjkLJC-AAWgAfERjlTrYxbZoJY6XStRVaYDa7SSir7XcrA8HvXyw87XfyaCANIxFugAA4YAD2YFYIAAvkA">جرب هذه الدارة على موقع IBM </a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_programming/Addition.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

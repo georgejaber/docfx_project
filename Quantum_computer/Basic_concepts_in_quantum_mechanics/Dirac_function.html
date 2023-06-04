@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>دالة ديراك(Dirac function) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="دالة ديراك(Dirac function) ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computer/Basic_concepts_in_quantum_mechanics/Dirac_function.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h2 id="دالة-ديراكdirac-function">دالة ديراك(Dirac function)</h2>
+
+<hr>
+<p>دالة ديراك أو موجه ديراك هي دالة رياضية تستخدم في الرياضيات والفيزياء، وهي معرفة بأنها دالة موجودة في الفضاء الموجي الذي يصف حالات الطاقة للجسيمات الكمية.</p>
+<p>تُستخدم دالة ديراك في حل معادلات الفيزياء الكمية والتحليل الرياضي، حيث تُعد أساسية في العديد من التطبيقات مثل حساب التحولات اللحظية، ودراسة التشوهات الفيزيائية والعديد من التطبيقات الأخرى.</p>
+<p>لمعرفة كيفية تمثيل دالة ديراك في الحاسوب الكمي</p>
+<p>كيفية استخدام</p>
+<p>bra-ket algebra
+ket:  الشرط البدائي (الحالة عند مغادرة المصدر)</p>
+<p>bra: تشير إلى الشرط النهائي (المكان او الحالة التي يراد حساب احتمال تواجد الجسم فيها)</p>
+<div align="right">
+<p><span class="math">\(|〈bra|ket〉|^{2}=x\)</span>
+احتمال وجود الالكترون في مكان ما</p>
+<p><span class="math">\(〈Particle Arrive (xn) | Leave Source〉\)</span></p>
+</div>
+<p>فعلى سبيل المثال و التوضيح اذا اردنا ان نحسب احتمال انتقال الالكترون من المدار رقم 3 الى المدار رقم 2 وان يطلق فوتون (ضوء)</p>
+<p>حيث ان الالكترون اذا اكتسب كم من الطاقة انتقل الى مدار اعلى فأذا تواجد الالكترون في المدار الثاني و اكتسب كما من الطاقة انتقل الى المدار الثالث و بعد مرور الوقت يرجع الالكترون الى مداره الاصلي و يطلق كما من الطاقة  كما هو موضح في الصورة ادناه</p>
+<p><img src="../../images/atom.png" alt="الذرة"></p>
+<p>من خلال استخدام <span class="math">\(bra-ket\)</span>  <span class="math">\(algebra\)</span></p>
+<p>يمكننا ايجاد هذا الاحتمال (انتقال الالكترون من المدار الثالث الى المدار الثاني)</p>
+<p>ويمثل على هذا الشكل</p>
+<div align="right">
+ 
+<p><span class="math">\(|〈n2|n3〉| ^{2} = x\)</span></p>
+</div>
+<p>و هذه المعادلة  بعد عملية الرصد اي انك تحاول حساب احتمال اتقال الالكترون الى المدار الثاني ويعني بأن المكان الذي تنوي حساب احتمال التواجد فيه معلوم</p>
+<p>اما اذا كان الجسم غير مرصود اي في حالة التراكب الكمومي (<span class="math">\(Superposition\)</span>) أو كما يطلق عليها البعض شبح ديراك</p>
+<p>فتمثل على صورة
+<span class="math">\(∣ket〉\)</span></p>
+<p>وتساوي جميع الاحتمالات الممكنة قبل عملية الرصد</p>
+<p>فمثلا</p>
+<div align="right">
+<p><span class="math">\(∣s〉=∣Down〉+∣Up〉\)</span></p>
+<p><span class="math">\(∣s〉=∣←〉+∣→〉\)</span></p>
+<p><span class="math">\(∣s〉=∣↑〉+∣↓〉\)</span></p>
+<p><span class="math">\(∣s〉= ∣x1〉+∣x2〉+∣x3〉+∣x4〉∣xn〉\)</span></p>
+</div>
+<p>ولا تعني بأنها تمثل فقط احتماليا انما تعني جميع الحالات الممكنة اي اكثر من احتماليا</p>
+<h2 id="تمثيلها-بمتجهات-و-مصفوفات">تمثيلها بمتجهات و مصفوفات</h2>
+<hr>
+<p>اكتشف ديراك انه في العالم الدون ذري بأمكانك وصف حالة الاجسام قبل القياس على شكل متجه ولكن يحتوي على رقم تخيلي</p>
+<p>في الوضع الطبيعي او مثلما تعلمنا يمكن وصف متجه ما على شكل مصفوفة</p>
+<p><img src="../../images/vector2.png" alt="vector"></p>
+<p>في هذه الحالة متجهة يمكننا حساب هذا المتجه عن طريق</p>
+<div align="right">
+ 
+<p><span class="math">\(op= xi + yj + zk\)</span></p>
+<p>حيث <span class="math">\(i\)</span> , <span class="math">\(j\)</span> , <span class="math">\(k\)</span> مصفوفات وحدة</p>
+<!--تحويل الصورة الى صيغة رياضية   اشقر -->
+<p><span class="math">\(i\)</span> = <span class="math">\(\begin{bmatrix}1\\0\\0\end{bmatrix}\)</span>  <span class="math">\(j\)</span> = <span class="math">\(\begin{bmatrix}0\\1\\0\end{bmatrix}\)</span> <span class="math">\(k\)</span> = <span class="math">\(\begin{bmatrix}0\\0\\1\end{bmatrix}\)</span></p>
+<p>ومن خلال تطيق المعادلة السابقة
+<span class="math">\(op=xi+yj+zk\)</span></p>
+<p><span class="math">\(=\)</span> <span class="math">\(x\begin{bmatrix}1\\0\\0\end{bmatrix}\)</span> <span class="math">\(+\)</span>  <span class="math">\(y\begin{bmatrix}0\\1\\0\end{bmatrix}\)</span> <span class="math">\(+\)</span>  <span class="math">\(z\begin{bmatrix}0\\0\\1\end{bmatrix}\)</span></p>
+<p><span class="math">\(op= \begin{bmatrix}x\\y\\z\end{bmatrix}\)</span></p>
+</div>
+<p>هذه في الوضع الكلاسيكي اما في عالم ميكانيكا الكم بأمكانك تمثيل حالة الجسيم قبل القياس بمصفوفات ولكن تحتوي على عدد مركب (Complex number)</p>
+ <div align="right">
+ 
+complex number= ${\sqrt{-1}}$
+</div>
+<p>و يمثل هذا المتجه في (complex_plane)</p>
+<p><img src="../../images/complex_plane.png" alt="vector"></p>
+<p>Re : ( is the real axis) الاحداث الحقيقي</p>
+<p>Im : (is the imaginary axis) الاحداث التخيلي</p>
+<p>Z  : complex vector space</p>
+<p>i = <span class="math">\({\sqrt {-1}}\)</span></p>
+<p>و تمثل على شكل مصفوفة كما هو موضح</p>
+ <div align="right">
+<p><span class="math">\(∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}\)</span></p>
+</div>
+<h2 id="الاتحاد-المركب-the--complex-conjugate">الاتحاد المركب (the  complex conjugate)</h2>
+<hr>
+<p>يتم تكوين الاتحاد المركب (complex conjugate)عن طريق تغيير الإشارة بين المكونين الحقيقي والخيالي للعدد المركب.</p>
+<p><img src="../../images/Complex_conjugate.png" alt="the  complex conjugate"></p>
+<p>حيث a هو المكون الحقيقي و bi هو المكون التخيلي ، يكون المُقارن المركب <span class="math">\(\overline{z}\)</span> لـ <span class="math">\(z\)</span> هو:</p>
+ <div align="right">
+<p><span class="math">\(\overline{z}=a-ib\)</span></p>
+</div>
+<p>و يمثل الاتحاد المركب (complex conjugate)</p>
+ <div align="right">
+<p><span class="math">\(\overline{z}\)</span> = <span class="math">\(〈bra|\)</span></p>
+<p><span class="math">\(∣a〉=\begin{bmatrix}a{1}+ib{1}\\ a{2}+ib{2}\\ a{3}+ib{3}\end{bmatrix}\)</span></p>
+<p><span class="math">\(〈a| =\begin{bmatrix}a{1}-ib{1}&amp;a{2}-ib{2}&amp;a{3}-ib{3}\end{bmatrix}\)</span></p>
+</div>
+<h4 id="بعض-المصادر-للتعلم">بعض المصادر للتعلم</h4>
+<p><a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%B1%D8%A7%D9%83%D8%A8_%D9%83%D9%85%D9%8A">ويكيبدا</a></p>
+<p><a href="https://www.youtube.com/watch?v=DeNXZVJoja8">فيديو عن الموضوع</a></p>
+<!-- المراجع  -->
+<!-- https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation -->
+<!-- https://www.mathsisfun.com/physics/bra-ket-notation.html -->
+<!-- https://www.youtube.com/watch?v=iXW_zc48uVA&list=PLAWgtgLrR_ZjkyQQoOjogOQCLDixpCX3I&index=37 -->
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computer/Basic_concepts_in_quantum_mechanics/Dirac_function.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

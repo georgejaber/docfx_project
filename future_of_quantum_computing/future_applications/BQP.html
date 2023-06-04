@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>مسائل كمية متعددة الحدود محدودة الخطأ  (bounded-error quantum polynomial time) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="مسائل كمية متعددة الحدود محدودة الخطأ  (bounded-error quantum polynomial time) ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/future_of_quantum_computing/future_applications/BQP.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+
+<packagereference include="Microsoft.DocAsCode.App" version="2.60.0"></packagereference>
+<h1 id="مسائل-كمية-متعددة-الحدود-محدودة-الخطأ--bounded-error-quantum-polynomial-time">مسائل كمية متعددة الحدود محدودة الخطأ  (bounded-error quantum polynomial time)</h1>
+<p><a href="https://www.qmunity.tech/post/problems-that-only-quantum-computers-can-solve#:%7E:text=Quantum%20computers%20can%20solve%20NP,is%20prime%20belongs%20to%20P">[1]</a></p>
+<p>وكما جاء سابقاً من تصنيفات المسائل الحسابية فإننا نعلم أنه وضع للحاسوب الكمومي تصنيف جديد للمسائل الحسابية وهو مسائل كمية متعددة الحدود محدودة الخطأ (BQP) هذه هي الأشياء التي يمكن للكمبيوتر الكمومي - جهاز كمبيوتر يتمتع بقوة إضافية من التراكب والتشابك والتداخل - حلها في وقت متعدد الحدود بأقل من مقدار معين من الخطأ</p>
+<p><img src="../../images/BQP.png" alt="bounded-error quantum polynomial time"></p>
+<ul>
+<li><p>مساحة متعددة الحدود
+PSPACE : تركز هذه الفئة على موارد الذاكرة
+لا وقت. PSPACE هي فئة مشاكل القرار التي يمكن حلها من قبل البعض
+الخوارزمية التي يمكن أن يحدها إجمالي استخدام المساحة ، في جميع الحالات ،
+كثير الحدود في حجم المثيل.</p>
+</li>
+<li><p>وقت متعدد الحدود الاحتمالي للخطأ المحدود
+BPP  : هي فئة مشاكل القرار التي يمكن حلها بواسطة آلة تورنج الاحتمالية في زمن متعدد الحدود ، مع احتمال خطأ يبلغ 1/3 على الأكثر لجميع
+الحالات.</p>
+</li>
+</ul>
+<!-- 
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+ -->
+<div class="NOTE">
+<h5>معلومة</h5>
+<p>آلة تورنج<a href="https://en.wikipedia.org/wiki/Turing_machine"> Turing machine</a> هي عبارة جهاز يعامل مجموعة من الرموز المصفوفة على شريط وفق مجموعة من القواعد. سميت بهذا الإسم نسبة لعالم الرياضيات الإنكليزي <a href="https://ar.wikipedia.org/wiki/%D8%A2%D9%84%D8%A7%D9%86_%D8%AA%D9%88%D8%B1%D9%86%D8%BA">آلان تورنگ</a> الذي أوجد هذا النموذج سنة 1937م الذي وصفها بالآلة التلقائية automatic machine.</p>
+</div>
+<p>أن حدود  مسائل كمية متعددة الحدود محدودة الخطأ (BQP)  عبارة عن خط ضبابي. يقع هذا الخط بين BPP و PP ، بما في ذلك بعض (لكن من غير الواضح كم) من<a href="https://en.wikipedia.org/wiki/NP_(complexity)"> NP</a> ، وبعض الأشياء خارج NP.</p>
+<p>يمكن لحاسوب كمي به خطأ محدود (اي السيطرة على المشاكل الحالية مثل الضوضاء ) أن يحل جميع أنواع المشكلات في P و BPP في وقت متعدد الحدود. يمكن أن يحل بعض أنواع المشاكل NP في وقت متعدد الحدود ، مع اعتبار التحليل عبر <a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">خوارزمية شور (Shor's Algorithm)</a> بمثابة المثال الأكثر شيوعًا. ليس من الواضح ما إذا كان بإمكانه حل أي شيء بكفاءة في فئة NP-Complete أم لا - لكن الباحثين يشكون في أنه لا يمكنه ذلك. هناك الكثير غير مثبت حول كيفية ارتباط فئات التعقيد ببعضها البعض ، و BQP هي فئة أخرى من التعقيد لم يتم تحديد حدودها بدقة.</p>
+<p>ومع ذلك ، ليس كل شيء ضبابيًا تمامًا ، ونعلم أن BQP أقوى من BPP. وتم اثبات ان BQP يتضمن بعض أنواع المشكلات خارج NP ، تقنيًا ، خارج فئة التعقيد الأكبر PH. يصعب على الكمبيوتر الكلاسيكي إيجاد حلول لأنواع المشكلات في تلك الفئة أو التحقق منها.</p>
+<p>هذا يعني أنه حتى ايجاد اثبات بأن P = NP ، ستظل هناك أنواع مشكلات BQP لا يستطيع الكمبيوتر الكلاسيكي حلها. وهنا يتفوق الحاسوب الكمي عن الحاسوب الكلاسيكي في حل المسائل الحسابية المعقدة.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/future_of_quantum_computing/future_applications/BQP.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

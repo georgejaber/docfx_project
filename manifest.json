@@ -1,0 +1,1332 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/docfx_project/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Basic_concepts_in_quantum_mechanics/Dirac_function.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Basic_concepts_in_quantum_mechanics/Dirac_function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Basic_concepts_in_quantum_mechanics/Entanglement.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Basic_concepts_in_quantum_mechanics/Entanglement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Basic_concepts_in_quantum_mechanics/Superposition.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Basic_concepts_in_quantum_mechanics/Superposition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/binary_gates/CNOT_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/binary_gates/CNOT_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/binary_gates/SWAP_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/binary_gates/SWAP_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/binary_gates/phase_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/binary_gates/phase_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/ternary_gates/CSwap.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/ternary_gates/CSwap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/ternary_gates/Toffoli_CCNOT.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/ternary_gates/Toffoli_CCNOT.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/unary_gates/Hadamard_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/unary_gates/Hadamard_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/unary_gates/Pauli_I_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/unary_gates/Pauli_I_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/unary_gates/Pauli_X_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/unary_gates/Pauli_X_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/unary_gates/Pauli_Y_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/unary_gates/Pauli_Y_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/unary_gates/Pauli_Z_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/unary_gates/Pauli_Z_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/unary_gates/T_gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/unary_gates/T_gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/Quantum_gates/unary_gates/phase-gate.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/Quantum_gates/unary_gates/phase-gate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/qbit/Bloch_sphere.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/qbit/Bloch_sphere.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/qbit/Definition_of_qbit.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/qbit/Definition_of_qbit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computer/qbit/qbit_application.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computer/qbit/qbit_application.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_algorithms/Grover_algorithm.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_algorithms/Grover_algorithm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_algorithms/Jozsa_Deutsch.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_algorithms/Jozsa_Deutsch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_algorithms/Shor`s_algorithm.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_algorithms/Shor`s_algorithm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_algorithms/oracle_function.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_algorithms/oracle_function.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_circuits/circle_full_adder.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_circuits/circle_full_adder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_circuits/circle_teleportation.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_circuits/circle_teleportation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound",
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_programming/Addition.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_programming/Addition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_programming/IBM_platform.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_programming/IBM_platform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_programming/OpenQASM.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_programming/OpenQASM.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_programming/Quantum_programming_platforms.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_programming/Quantum_programming_platforms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/Quantum_programming/teleportation.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/Quantum_programming/teleportation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Quantum_computing_applications/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "Quantum_computing_applications/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/Challenges_and_hindrances/Challenges.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/Challenges_and_hindrances/Challenges.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/future_applications/BQP.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/future_applications/BQP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/future_applications/Chemical_Engineering.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/future_applications/Chemical_Engineering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/future_applications/Quantum_Internet.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/future_applications/Quantum_Internet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/future_applications/Quantum_computing_in_manufacturing.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/future_applications/Quantum_computing_in_manufacturing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/future_applications/Scientific_application.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/future_applications/Scientific_application.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/future_applications/Tensors.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/future_applications/Tensors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/future_applications/economic_side.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/future_applications/economic_side.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/future_applications/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/future_applications/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "future_of_quantum_computing/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "future_of_quantum_computing/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/A_problem_or_conflict_with_the_electromagnetic_theory.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/A_problem_or_conflict_with_the_electromagnetic_theory.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Aristotle.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Aristotle.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/BQP.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/BQP.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Bbitmaking.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Bbitmaking.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Black-body-radiation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Black-body-radiation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Blackbody_Radiation_Spectra_-_ar.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Blackbody_Radiation_Spectra_-_ar.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Bloch_sphere.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Bloch_sphere.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Bloch_sphere_Hadamard.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Bloch_sphere_Hadamard.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Bloch_sphere_pauli_y.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Bloch_sphere_pauli_y.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Bloch_sphere_pauli_z.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Bloch_sphere_pauli_z.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Bohr’sModelWork.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Bohr’sModelWork.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Boltzmann.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Boltzmann.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Complex_conjugate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Complex_conjugate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Deutsch_jozsa_alqorithm_Fixed.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Deutsch_jozsa_alqorithm_Fixed.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Deutsch_jozsa_alqorithm_balanced.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Deutsch_jozsa_alqorithm_balanced.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Double_slit_experiment.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Double_slit_experiment.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Encryption.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Encryption.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FullAdder2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FullAdder2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FullAdder3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FullAdder3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FullAdder4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FullAdder4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/FullAdderWithoutHadamard3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/FullAdderWithoutHadamard3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Grover_algorithm_graph.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Grover_algorithm_graph.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Hadamard_Gate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Hadamard_Gate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IBM_Operations.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IBM_Operations.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IBM_Probabilities.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IBM_Probabilities.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IBM_Q-Sphere.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IBM_Q-Sphere.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IBM_languages_OpenQASM2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IBM_languages_OpenQASM2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IBM_languages_QisKit2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IBM_languages_QisKit2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IBM_main.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IBM_main.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Josephson.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/Josephson.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Main_Project.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Main_Project.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Moore's_Law.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Moore's_Law.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NP_Problem.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NP_Problem.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/NobelPrizes.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/NobelPrizes.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/QBit.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/QBit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Quantum-controlled-NOT-gate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Quantum-controlled-NOT-gate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/RutherfordExperiment.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/RutherfordExperiment.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Rutherford_atomic.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Rutherford_atomic.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SWAP-Gate.jpeg",
+      "output": {
+        "resource": {
+          "relative_path": "images/SWAP-Gate.jpeg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TeleportationB.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TeleportationB.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TeleportationC.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TeleportationC.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/TeleportationD.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/TeleportationD.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Toffoli.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Toffoli.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Venn_diagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Venn_diagram.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/anodcathode.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/anodcathode.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/architecture_quantum_computer.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/architecture_quantum_computer.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/atom.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/atom.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/atom1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/atom1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/bit_vs_Qbit.jpeg",
+      "output": {
+        "resource": {
+          "relative_path": "images/bit_vs_Qbit.jpeg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/circuit_teleportation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/circuit_teleportation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/complex_plane.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/complex_plane.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/controlled-phase-gate.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/controlled-phase-gate.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/device_specifications.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/device_specifications.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/entanglment.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/entanglment.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ezgif.com-resize.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/ezgif.com-resize.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/fullAdder1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/fullAdder1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/full_adder_Quantum.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/full_adder_Quantum.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/full_adder_Quantum2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/full_adder_Quantum2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/full_adder_classic.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/full_adder_classic.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/full_adder_classic2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/full_adder_classic2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/hadamard.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/hadamard.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/image1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/image1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pauli_x_gate1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/pauli_x_gate1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/paulix.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/paulix.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pauliy.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/pauliy.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pauliz.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/pauliz.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/phase.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/phase.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/practical_result.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/practical_result.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/schrodinger_vs_einstein.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/schrodinger_vs_einstein.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/singlephoton.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/singlephoton.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/superposition.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/superposition.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/teleportation1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/teleportation1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/tgate.gif",
+      "output": {
+        "resource": {
+          "relative_path": "images/tgate.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/theoretical_result.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/theoretical_result.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vector2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vector2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/Nobel_Prize/Bell's_theorem.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/Nobel_Prize/Bell's_theorem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/Nobel_Prize/Einstein_argument.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/Nobel_Prize/Einstein_argument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/Nobel_Prize/Nobel2022.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/Nobel_Prize/Nobel2022.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/Path_content.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/Path_content.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/history_of_quantum_physics/Double-slit_experiment.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/history_of_quantum_physics/Double-slit_experiment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/history_of_quantum_physics/Introduction_quantum_mechanics.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/history_of_quantum_physics/Introduction_quantum_mechanics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/need_quantum_computing/Inability_Classical_computing.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/need_quantum_computing/Inability_Classical_computing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction/need_quantum_computing/Moores_law.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction/need_quantum_computing/Moores_law.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "what_you_need.md",
+      "output": {
+        ".html": {
+          "relative_path": "what_you_need.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>منصة IBM </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="منصة IBM ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_programming/IBM_platform.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h1 id="منصة-ibm">منصة IBM</h1>
+
+<hr>
+<ul>
+<li><h2 id="ibm-quantum-composer">IBM Quantum Composer</h2>
+</li>
+</ul>
+<p>تقدم شركة IBM تجربة رائعة من خلال عدة منصات اهمها (IBM Quantum Composer) و تهتم هذه المنصة في توفير بيئة تحاكي الحاسوب الكمي.</p>
+<p>و اذا اردت ان تقوم معمل محاكة واستخدام حاسوب كمي حقيقي فأنك تستطيع استخدام 5 او 7  كيوبت فقط كحد اعلى
+اما اذا اردت ان تعمل على محاكة لحاسوب كمي يحاكي الحاسوب الكمي الحقيقي فأنك تستطيع استخدام كاقصى حد 5000 كيوبت
+حيث يتواجد داخل هذه المنصة العديد من البوابات الكمومية الاساسية مثل بوابة هدامارت التي تقوم بوضع الكيوبت في الوضع الفائق و بوابات اخرى</p>
+<ul>
+<li><h3 id="main">Main</h3>
+</li>
+</ul>
+<p><img src="../../images/IBM_main.png" alt="Main"></p>
+<p>هنا تقون بوضع البوابات و غيرها</p>
+<ul>
+<li><h3 id="operstions">Operstions</h3>
+</li>
+</ul>
+<p><img src="../../images/IBM_Operations.png" alt="Operstions"></p>
+<p>هناك العديد من من الخانات التي تقع تحت خانة العمليات</p>
+<h4 id="1--hadamard">1- Hadamard</h4>
+<h4 id="2--classical">2- Classical</h4>
+<pre><code>•  NOT gate
+•  CNOT gate
+•  Toffoli gate
+•  Identity gate
+</code></pre>
+<h4 id="3--phase">3- phase</h4>
+<pre><code>• T gate
+• S gate
+• Z gate
+• Tdg or Tdagger gate 
+• Sdg or S-dagger gate
+• Phase gate
+• RZ gate
+</code></pre>
+<h4 id="4--non-unitary--modifiers">4- Non-unitary &amp; modifiers</h4>
+<pre><code>• Measurement 
+• Reset 
+• Barrier 
+• Control 
+• Conditional
+</code></pre>
+<h3 id="languages--openqasm-and-qiskit">languages  OpenQASM and QisKit</h3>
+<p><img src="../../images/IBM_languages_OpenQASM2.png" alt="languages  OpenQASM and QisKit"><img src="../../images/IBM_languages_QisKit2.png" alt=""></p>
+<p>تتيح لك هذه الخانة عرض للغتي البرمجة الكمومية
+openQASM 2.0
+and
+Qiskit</p>
+<p>بعد اجراء التعديلات و العمليات على الكيوبت و البوابات الكمومية فتمثل ما فعلته بلغة الكود لاحد هاتين اللغتان
+اما عن مجال التعديل على الكود او العمل بشكل عكسي اي كتابة الكود وتطبيقه على الكيوبت فان  openQASM تطيح لك المجال لهاذا اما بلنسبة الى Qiskit لا تستطيع اجراء اي تعديل فقط عملية قراءة الكود</p>
+<h3 id="probabilities">Probabilities</h3>
+<p><img src="../../images/IBM_Probabilities.png" alt="Probabilities"></p>
+<p>من خلال هذه الخانة الموقع يعرض لك الاحتمالات لعدد من الكيوبت</p>
+<h3 id="q-sphere">Q-Sphere</h3>
+<p><img src="../../images/IBM_Q-Sphere.png" alt="Q-Sphere"></p>
+<p>و تتيح هذه الخانة بعرض الحالة الكمومية للكيوبت على كرة سفير التي قمنا بشرحها سابقا و الحد الاعلى لعدد الكيوبت الممكن للتمثيل هو 5</p>
+<ul>
+<li><h2 id="ibm-quantum-lab">IBM Quantum Lab</h2>
+<p>Develop quantum experiments in
+Qiskit</p>
+</li>
+</ul>
+<p>يتيح لك الموقع الكتابة باستخدام كسكت حيث تقوم بترجمة الكود و تطبيقه إما على حوسبة سحابية مرتبطة بحاسوب كمي حقيقي مكون من عدد كيوبت قليل أو تشغيل الكود على حوسبة سحابية محاكية للحاسوب الكمي و تتيح لك استخدام عدد أكبر بكثير من الكيوبت عنها من الطريقة الأولى</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_programming/IBM_platform.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

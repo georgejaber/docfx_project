@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>خوارزمية يوزا-دويتش (jozsa-deutch) </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="خوارزمية يوزا-دويتش (jozsa-deutch) ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_algorithms/Jozsa_Deutsch.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h2 id="خوارزمية-يوزا-دويتش-jozsa-deutch">خوارزمية يوزا-دويتش (jozsa-deutch)</h2>
+
+<p>هي أول خوارزمية كمومية طبقت على الحاسوب الكمي و
+هي خوارزمية كمية حتمية اقترحها <a href="https://quantum-computing.ibm.com/composer/docs/iqx/guide/deutsch-jozsa-algorithm">ديفيد دويتش(Jozsa – Deutsch)</a>
+عام 1992</p>
+<p>و في عام 1998 تم اجراء بعض التحسينات بواسطة
+(Jozsa Richard )و(وريتشارد يوزا)و(Deutsch David)و
+(ريتشارد كليف)و و(وأرتور إكيرت) و(وكيارا ماكيافيللو)و( وميشيل موسكا) و على الرغم من
+قلة استخدام هذه الخوارزمية ،إلا أنها تعتبر أحد الامثلة الاولى على خوارزمية كمومية أسرع بشكل كبير من أي خوارزمية كلاسيكية</p>
+<p>تستخدم هذه الخوارزمية  فنكشن يسمى بل اوراكل فنكشن،هذا الفنكشن يتصرف كصندوق اسود ياخذ معطيات دون معرفة ما سيحصل له و يعيد مخرجاتها،على فرض ان هذا يمكن ان يكون ثابت او متوازن حصرا</p>
+<h2 id="المشكلة">المشكلة</h2>
+<p>يوجد لدينا دالة -فنكشن تسمى بل اوراكل فنكشن،هذا الفنكشن يتصرف كصندوق اسود ياخذ معطيات ويعيد لنا مخرجات دنن معرفة ما حصل لها ،على فرض ان هذا الفنكشن ثابت او متوازن حصرا</p>
+ <div align="right">
+ 
+$f\::\:\left\{0,1\right\}^n\:\:\:\to \left\{0,1\right\}$
+<p>يكون الفنكشن ثابتا :اذا كانت جميع مخرجاته &quot;0 ”او جميعها &quot;1”</p>
+<p>مثال</p>
+<p><span class="math">\(f\left(x\right)\::\:even\:\to \:0\)</span></p>
+<p><span class="math">\(f\left(x\right)\::\:odd\to \:1\)</span></p>
+</div>
+<!-- جدول  -->
+<table>
+<thead>
+<tr>
+<th>input(X)</th>
+<th>output f(X)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>00</td>
+<td>0</td>
+</tr>
+<tr>
+<td>01</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr>
+<td>11</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+ <div align="right">
+<p>يكون الفنكشن متوازنا : اذا كانت نصف مخرجاته &quot;0 ”ونصفها &quot;1.”</p>
+<p>مثل</p>
+<p><span class="math">\(f\::\:constant\:\to \:0\)</span></p>
+</div>
+<!-- جدول  -->
+<table>
+<thead>
+<tr>
+<th>input(X)</th>
+<th>output f(X)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>00</td>
+<td>0</td>
+</tr>
+<tr>
+<td>01</td>
+<td>0</td>
+</tr>
+<tr>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr>
+<td>11</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="حل-المشكلة">حل المشكلة</h2>
+<p>اسرع خوارزمية كلسيكية بحاجة الى <span class="math">\(2^{n-1}\:+1\)</span> وهذا يعني انه يجب عليها تفقد نصف العناصر اضافةالى العنصر الاول بعدالنصف لتقرر نوع الفنكشن
+(Function)</p>
+<h2 id="الحل-الكمومي">الحل الكمومي</h2>
+<p>نحن بحاجة الى تجربة الفنكشن مرة واحدة لمعرفة نوعه</p>
+<h4 id="في-حال-كان-الفنكشن-متوازنا">في حال كان الفنكشن متوازنا</h4>
+<p><img src="../../images/Deutsch_jozsa_alqorithm_balanced.png" alt="Deutsch_jozsa_alqorithm_balanced"></p>
+<p>يكون احتمال ال&quot;0“=0</p>
+<h4 id="في-حال-كان-الفنكشن-ثابت">في حال كان الفنكشن ثابت</h4>
+<p><img src="../../images/Deutsch_jozsa_alqorithm_Fixed.png" alt="Deutsch_jozsa_alqorithm_Fixed"></p>
+<p>يكون احتمال ال&quot;0“= %100</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_algorithms/Jozsa_Deutsch.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>

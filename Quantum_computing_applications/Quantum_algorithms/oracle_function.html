@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>اوراكل فنكشن </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="اوراكل فنكشن ">
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.min.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_algorithms/oracle_function.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="" dir="rtl">
+   <!--
+   <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="" >
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+     -->
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas" dir="ltr">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+          
+<h1 id="اوراكل-فنكشن">اوراكل فنكشن</h1>
+
+<p>يتصرف هذا الفنكشن كصندوق اسود ياخذ معطيات ويعيد لنا مخرجات، دون معرفة تفاصيل
+العمليات التي يقوم بها</p>
+<p>يصنف الاوراكل فنكشن الى</p>
+<h2 id="oracle-logical-boolean--اوراكل-فنكشن-منطقي-">oracle logical-boolean -اوراكل فنكشن منطقي-</h2>
+<h2 id="oracle-phase-physical-اوراكل-فنكشن-طوري-او-حالي-">oracle Phase-Physical-اوراكل فنكشن طوري او حالي-</h2>
+<p>يجب ان يكون الفنكشن (reversible)قابل للعكس:وهذا يعني انه بل امكان معرفة المدخالت من
+خالل المخرجات ومن االمثلة عليها بوابة not</p>
+<table>
+<thead>
+<tr>
+<th>1</th>
+<th>0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>تعتبر بوابة xor مثال على عملية ليست عكسية</p>
+<table>
+<thead>
+<tr>
+<th>AB</th>
+<th>O</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>00</td>
+<td>0</td>
+</tr>
+<tr>
+<td>01</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1</td>
+</tr>
+<tr>
+<td>11</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="يوجد-نوعان-للفنكشن-القابل-للعكس">يوجد نوعان للفنكشن القابل للعكس</h2>
+<h3 id="reversibility-logical-الانعكاس-المنطقي-">reversibility Logical-الانعكاس المنطقي-</h3>
+<h3 id="reversibility-physical-انعكاس-فيزيائي-">reversibility Physical-انعكاس فيزيائي-</h3>
+<p>عدد المدخالت و المخرجات يجب ان يكون متساويا في االوراكل فنكشن</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/georgejaber/docfx_project/blob/master/Quantum_computing_applications/Quantum_algorithms/oracle_function.md/#L1" target="_blank" class="edit-link">عدل هذه الصفحة</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix" dir="ltr">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+<!--
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+    -->
+  </body>
+</html>
